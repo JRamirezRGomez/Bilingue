@@ -68,7 +68,7 @@ namespace BilingualApp
         {
             bilingual b= new bilingual();
             b.Visible = true;
-            Close()
+            Close();
             //ya te la u know
             //jejejeje
             //le uite los dos puntos al final

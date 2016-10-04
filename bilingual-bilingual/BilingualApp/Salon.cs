@@ -35,7 +35,7 @@ namespace BilingualApp
              hay que ver como se lo pasamos a el creador de bottones
              esta abajo...
 
-            esto es una preuba
+            esto es una preuba y ajustes
             */
 
             

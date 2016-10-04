@@ -71,6 +71,7 @@ namespace BilingualApp
             bilingual b= new bilingual();
             b.Visible = true;
             Close();
+            //Ajustes de prueba
         }
     }
 }

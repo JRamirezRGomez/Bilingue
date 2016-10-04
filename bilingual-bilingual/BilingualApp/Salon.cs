@@ -35,7 +35,7 @@ namespace BilingualApp
              hay que ver como se lo pasamos a el creador de bottones
              esta abajo...
 
-            esto es una preuba y ajustes
+            esto es una preuba
             */
 
             
@@ -72,6 +72,8 @@ namespace BilingualApp
             b.Visible = true;
             Close();
             //Ajustes de prueba
+            //Esto es una prueba
+            //Es una prueba x2
         }
     }
 }

@@ -37,6 +37,8 @@ namespace BilingualApp
 
             esto es una preuba
             */
+
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -73,6 +75,8 @@ namespace BilingualApp
             //ya te la u know
             //jejejeje
             //le uite los dos puntos al final
+
+            //Callese desgraciado, Chupe a la edith
         }
     }
 }

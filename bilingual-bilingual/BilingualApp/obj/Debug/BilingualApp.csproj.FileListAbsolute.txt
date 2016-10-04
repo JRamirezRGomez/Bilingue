@@ -2,3 +2,4 @@ C:\Raul Ramirez\Tecnologico\SIxth Sense\bilingual-bilingual\BilingualApp\Bilingu
 C:\Raul Ramirez\Tecnologico\SIxth Sense\Bilingue\bilingual-bilingual\BilingualApp\BilingualApp.exe.config
 C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\BilingualApp.exe.config
 C:\Raul Ramirez\Tecnologico\SIxth Sense\Bilingue2\bilingual-bilingual\BilingualApp\BilingualApp.exe.config
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\BilingualApp.exe.config

@@ -46,19 +46,12 @@ namespace BilingualApp
         {
             //generamos el array de botones uno para cada
             //estudiante con su numero de lista
-            int top = 100;
-            int left = 185;
+            
             for (int i = 0; i < x; i++)
             {
                 //se le pone el numero al boton usando el
                 //contador de FOR para asi ir aumentando el numero
-                int indice = 1;
-                Button[]button = new Button[i];
-                button[i].Text = indice.ToString();
-                button[i].Left = left;
-                button[i].Top = top;
-                this.Controls.Add(button[i]);
-                top += button[i].Height + 2;
+               
             }
             
         }
@@ -73,10 +66,7 @@ namespace BilingualApp
             bilingual b= new bilingual();
             b.Visible = true;
             Close();
-<<<<<<< HEAD
-=======
             //Ajustes de prueba
->>>>>>> origin/master
         }
     }
 }

@@ -36,7 +36,7 @@ namespace BilingualApp
              esta abajo...10/05/2016 se alacaro la duda
              al usar el mismo for para dar el numero al button
 
-            esto es una preuba
+            esto es una preuba y ajustes
             */
 
             
@@ -73,6 +73,10 @@ namespace BilingualApp
             bilingual b= new bilingual();
             b.Visible = true;
             Close();
+<<<<<<< HEAD
+=======
+            //Ajustes de prueba
+>>>>>>> origin/master
         }
     }
 }

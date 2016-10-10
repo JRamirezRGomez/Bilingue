@@ -33,7 +33,8 @@ namespace BilingualApp
             /*maestro indica numero de alumnos
             alu contiene ese numero
              hay que ver como se lo pasamos a el creador de bottones
-             esta abajo...
+             esta abajo...10/05/2016 se alacaro la duda
+             al usar el mismo for para dar el numero al button
 
             esto es una preuba
             */
@@ -46,17 +47,18 @@ namespace BilingualApp
             //generamos el array de botones uno para cada
             //estudiante con su numero de lista
             int top = 100;
-            int left = 100;
-            for (int i = 1; i < x+1; i++)
+            int left = 185;
+            for (int i = 0; i < x; i++)
             {
                 //se le pone el numero al boton usando el
                 //contador de FOR para asi ir aumentando el numero
-                Button button = new Button();
-                button.Text = i.ToString();
-                button.Left = left;
-                button.Top = top;
-                this.Controls.Add(button);
-                top += button.Height + 2;
+                int indice = 1;
+                Button[]button = new Button[i];
+                button[i].Text = indice.ToString();
+                button[i].Left = left;
+                button[i].Top = top;
+                this.Controls.Add(button[i]);
+                top += button[i].Height + 2;
             }
             
         }
@@ -71,9 +73,6 @@ namespace BilingualApp
             bilingual b= new bilingual();
             b.Visible = true;
             Close();
-            //Ajustes de prueba
-            //Esto es una prueba
-            //Es una prueba x2
         }
     }
 }

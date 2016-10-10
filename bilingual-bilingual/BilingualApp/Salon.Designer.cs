@@ -74,12 +74,13 @@
             // Salon
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.AutoSize = true;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(435, 496);
             this.Controls.Add(this.BtnAtras);
             this.Controls.Add(this.Crear);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.numalu);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Salon";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clases";

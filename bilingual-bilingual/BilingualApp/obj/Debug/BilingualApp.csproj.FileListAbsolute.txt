@@ -3,3 +3,17 @@ C:\Raul Ramirez\Tecnologico\SIxth Sense\Bilingue\bilingual-bilingual\BilingualAp
 C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\BilingualApp.exe.config
 C:\Raul Ramirez\Tecnologico\SIxth Sense\Bilingue2\bilingual-bilingual\BilingualApp\BilingualApp.exe.config
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\BilingualApp.exe.config
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.csprojResolveAssemblyReference.cache
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.bilingual.resources
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.Salon.resources
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.Home.resources
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.Material.resources
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.Properties.Resources.resources
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.registrar.resources
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.csproj.GenerateResource.Cache
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.exe
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\bin\Debug\BilingualApp.XML
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.pdb
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\BilingualApp.exe
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\BilingualApp.pdb
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\BilingualApp.XML

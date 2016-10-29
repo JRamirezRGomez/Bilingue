@@ -33,6 +33,7 @@
             this.BtnAtras = new System.Windows.Forms.Button();
             this.numalu = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Agregar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -67,6 +68,7 @@
             // numalu
             // 
             this.numalu.Location = new System.Drawing.Point(203, 25);
+            this.numalu.MaxLength = 2;
             this.numalu.Name = "numalu";
             this.numalu.Size = new System.Drawing.Size(40, 20);
             this.numalu.TabIndex = 0;
@@ -74,17 +76,28 @@
             // 
             // textBox1
             // 
-            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(109, 205);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(227, 20);
             this.textBox1.TabIndex = 4;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // Agregar
+            // 
+            this.Agregar.Location = new System.Drawing.Point(185, 252);
+            this.Agregar.Name = "Agregar";
+            this.Agregar.Size = new System.Drawing.Size(75, 23);
+            this.Agregar.TabIndex = 5;
+            this.Agregar.Text = "Agregar";
+            this.Agregar.UseVisualStyleBackColor = true;
+            this.Agregar.Click += new System.EventHandler(this.Agregar_Click);
             // 
             // Salon
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(435, 496);
+            this.Controls.Add(this.Agregar);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.BtnAtras);
             this.Controls.Add(this.Crear);
@@ -106,5 +119,6 @@
         private System.Windows.Forms.Button BtnAtras;
         private System.Windows.Forms.TextBox numalu;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button Agregar;
     }
 }

@@ -17,12 +17,7 @@ namespace BilingualApp
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            bilingual bi = new bilingual();
-            bi.Visible = true;
-            Close();
-        }
+       
 
 
         private void label4_Click(object sender, EventArgs e)
@@ -43,6 +38,13 @@ namespace BilingualApp
         private void BtnRegistrar_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void BtnCancelar_Click(object sender, EventArgs e)
+        {
+            bilingual bi = new bilingual();
+            bi.Visible = true;
+            Close();
         }
     }
 }

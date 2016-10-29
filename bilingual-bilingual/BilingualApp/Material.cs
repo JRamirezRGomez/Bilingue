@@ -64,5 +64,10 @@ namespace BilingualApp
         {
 
         }
+
+        private void Material_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

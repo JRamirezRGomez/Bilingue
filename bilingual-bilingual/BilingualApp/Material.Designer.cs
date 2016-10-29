@@ -166,6 +166,7 @@
             this.Controls.Add(this.Atras);
             this.Name = "Material";
             this.Text = "Material";
+            this.Load += new System.EventHandler(this.Material_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

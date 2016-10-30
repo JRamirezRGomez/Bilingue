@@ -24,6 +24,10 @@ namespace BilingualApp
             Close();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //ajsdka
+        }
 
         private void label4_Click(object sender, EventArgs e)
         {
@@ -36,11 +40,6 @@ namespace BilingualApp
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BtnRegistrar_Click(object sender, EventArgs e)
         {
 
         }

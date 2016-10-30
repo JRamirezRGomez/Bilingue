@@ -22,13 +22,13 @@ namespace BilingualApp
             Salon vrb = new Salon();
             vrb.Visible = true;
             Close();
-            //wisiwikll
+            //wisiwikllvbvbvjvvhjjhbjj
         }
 
         private void Atras_Click(object sender, EventArgs e)
         {
             bilingual bi = new bilingual();
-            bi.Visible = true;
+            bi.Visible = true;//jhjbfjb
             Close();
         }
 

@@ -69,5 +69,10 @@ namespace BilingualApp
         {
 
         }
+
+        private void nivel2vtb_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

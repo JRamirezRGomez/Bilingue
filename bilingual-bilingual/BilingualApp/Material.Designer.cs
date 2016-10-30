@@ -102,6 +102,7 @@
             this.nivel2vtb.TabIndex = 9;
             this.nivel2vtb.Text = "Nivel 2";
             this.nivel2vtb.UseVisualStyleBackColor = true;
+            this.nivel2vtb.Click += new System.EventHandler(this.nivel2vtb_Click);
             // 
             // Nivel3vtb
             // 

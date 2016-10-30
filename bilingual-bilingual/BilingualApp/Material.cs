@@ -22,7 +22,7 @@ namespace BilingualApp
             Salon vrb = new Salon();
             vrb.Visible = true;
             Close();
-            //wisiwikl
+            //wisiwikllxxx
         }
 
         private void Atras_Click(object sender, EventArgs e)

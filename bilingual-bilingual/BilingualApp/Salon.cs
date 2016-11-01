@@ -48,14 +48,7 @@ namespace BilingualApp
             //Ajustes de prueba
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Agregar_Click(object sender, EventArgs e)
-        {
-
-        }
+     
+      
     }
 }

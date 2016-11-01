@@ -32,14 +32,12 @@
             this.Crear = new System.Windows.Forms.Button();
             this.BtnAtras = new System.Windows.Forms.Button();
             this.numalu = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.Agregar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(106, 9);
+            this.label1.Location = new System.Drawing.Point(99, 60);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(230, 13);
             this.label1.TabIndex = 1;
@@ -47,7 +45,7 @@
             // 
             // Crear
             // 
-            this.Crear.Location = new System.Drawing.Point(261, 51);
+            this.Crear.Location = new System.Drawing.Point(293, 249);
             this.Crear.Name = "Crear";
             this.Crear.Size = new System.Drawing.Size(75, 23);
             this.Crear.TabIndex = 2;
@@ -57,7 +55,7 @@
             // 
             // BtnAtras
             // 
-            this.BtnAtras.Location = new System.Drawing.Point(109, 51);
+            this.BtnAtras.Location = new System.Drawing.Point(66, 249);
             this.BtnAtras.Name = "BtnAtras";
             this.BtnAtras.Size = new System.Drawing.Size(75, 23);
             this.BtnAtras.TabIndex = 3;
@@ -67,38 +65,19 @@
             // 
             // numalu
             // 
-            this.numalu.Location = new System.Drawing.Point(203, 25);
+            this.numalu.Location = new System.Drawing.Point(102, 142);
             this.numalu.MaxLength = 2;
+            this.numalu.Multiline = true;
             this.numalu.Name = "numalu";
-            this.numalu.Size = new System.Drawing.Size(40, 20);
+            this.numalu.Size = new System.Drawing.Size(227, 29);
             this.numalu.TabIndex = 0;
             this.numalu.TextChanged += new System.EventHandler(this.numalu_TextChanged);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(109, 205);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(227, 20);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // Agregar
-            // 
-            this.Agregar.Location = new System.Drawing.Point(185, 252);
-            this.Agregar.Name = "Agregar";
-            this.Agregar.Size = new System.Drawing.Size(75, 23);
-            this.Agregar.TabIndex = 5;
-            this.Agregar.Text = "Agregar";
-            this.Agregar.UseVisualStyleBackColor = true;
-            this.Agregar.Click += new System.EventHandler(this.Agregar_Click);
             // 
             // Salon
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(435, 496);
-            this.Controls.Add(this.Agregar);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.BtnAtras);
             this.Controls.Add(this.Crear);
             this.Controls.Add(this.label1);
@@ -118,7 +97,5 @@
         private System.Windows.Forms.Button Crear;
         private System.Windows.Forms.Button BtnAtras;
         private System.Windows.Forms.TextBox numalu;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button Agregar;
     }
 }

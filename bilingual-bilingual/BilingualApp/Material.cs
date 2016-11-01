@@ -22,13 +22,13 @@ namespace BilingualApp
             Salon vrb = new Salon();
             vrb.Visible = true;
             Close();
-            
+            //wisiwikllvbvbvjvvhjjhbjj
         }
 
         private void Atras_Click(object sender, EventArgs e)
         {
             bilingual bi = new bilingual();
-            bi.Visible = true;
+            bi.Visible = true;//jhjbfjb
             Close();
         }
 
@@ -39,6 +39,8 @@ namespace BilingualApp
                 Nivel1vtb.Enabled = false;
                 nivel2vtb.Enabled = false;
                 Nivel3vtb.Enabled = false;
+
+                //ajsifhdiasksjadjkasaaaaaaaaaaaaabbbbbbbbbbbbbbbbbb
             }
         }
 
@@ -60,59 +62,14 @@ namespace BilingualApp
             }
         }
 
+        private void Nivel1vtb_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void Material_Load(object sender, EventArgs e)
         {
 
-        }
-
-
-        private void Nivel1vtb_Click(object sender, EventArgs e)
-        {
-            Preguntas pr = new Preguntas();
-            pr.Visible = true;
-            Close();
-        }
-
-        private void nivel2vtb_Click(object sender, EventArgs e)
-        {
-            Preguntas pr = new Preguntas();
-            pr.Visible = true;
-            Close();
-        }
-
-        private void Nivel3vtb_Click(object sender, EventArgs e)
-        {
-            Preguntas pr = new Preguntas();
-            pr.Visible = true;
-            Close();
-        }
-
-        private void Nivel1dw_Click(object sender, EventArgs e)
-        {
-            Preguntas pr = new Preguntas();
-            pr.Visible = true;
-            Close();
-        }
-
-        private void Nivel2dw_Click(object sender, EventArgs e)
-        {
-            Preguntas pr = new Preguntas();
-            pr.Visible = true;
-            Close();
-        }
-
-        private void Nivel3dw_Click(object sender, EventArgs e)
-        {
-            Preguntas pr = new Preguntas();
-            pr.Visible = true;
-            Close();
-        }
-
-        private void grama_Click(object sender, EventArgs e)
-        {
-            Preguntas pr = new Preguntas();
-            pr.Visible = true;
-            Close();
         }
     }
 }

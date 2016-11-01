@@ -54,11 +54,11 @@
     <Compile Include="bilingual.Designer.cs">
       <DependentUpon>bilingual.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="prueba.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="prueba.Designer.cs">
+      <DependentUpon>prueba.cs</DependentUpon>
     </Compile>
     <Compile Include="RegAlumnos.cs">
       <SubType>Form</SubType>

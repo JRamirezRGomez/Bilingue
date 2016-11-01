@@ -102,6 +102,7 @@
             this.nivel2vtb.TabIndex = 9;
             this.nivel2vtb.Text = "Nivel 2";
             this.nivel2vtb.UseVisualStyleBackColor = true;
+            this.nivel2vtb.Click += new System.EventHandler(this.nivel2vtb_Click);
             // 
             // Nivel3vtb
             // 
@@ -111,6 +112,7 @@
             this.Nivel3vtb.TabIndex = 10;
             this.Nivel3vtb.Text = "Nivel 3";
             this.Nivel3vtb.UseVisualStyleBackColor = true;
+            this.Nivel3vtb.Click += new System.EventHandler(this.Nivel3vtb_Click);
             // 
             // Nivel1dw
             // 
@@ -120,6 +122,7 @@
             this.Nivel1dw.TabIndex = 11;
             this.Nivel1dw.Text = "Nivel 1";
             this.Nivel1dw.UseVisualStyleBackColor = true;
+            this.Nivel1dw.Click += new System.EventHandler(this.Nivel1dw_Click);
             // 
             // Nivel2dw
             // 
@@ -129,6 +132,7 @@
             this.Nivel2dw.TabIndex = 12;
             this.Nivel2dw.Text = "Nivel 2";
             this.Nivel2dw.UseVisualStyleBackColor = true;
+            this.Nivel2dw.Click += new System.EventHandler(this.Nivel2dw_Click);
             // 
             // Nivel3dw
             // 
@@ -138,6 +142,7 @@
             this.Nivel3dw.TabIndex = 13;
             this.Nivel3dw.Text = "Nivel 3";
             this.Nivel3dw.UseVisualStyleBackColor = true;
+            this.Nivel3dw.Click += new System.EventHandler(this.Nivel3dw_Click);
             // 
             // grama
             // 
@@ -147,6 +152,7 @@
             this.grama.TabIndex = 14;
             this.grama.Text = "Nivel 1";
             this.grama.UseVisualStyleBackColor = true;
+            this.grama.Click += new System.EventHandler(this.grama_Click);
             // 
             // Material
             // 

@@ -64,12 +64,12 @@ namespace BilingualApp
 
         private void Nivel1vtb_Click(object sender, EventArgs e)
         {
-            //ibibi
+            
         }
 
         private void Material_Load(object sender, EventArgs e)
         {
 
         }
-    } //kjajsajkdjask
+    } 
 }

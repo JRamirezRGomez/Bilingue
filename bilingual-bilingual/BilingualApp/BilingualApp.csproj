@@ -54,12 +54,6 @@
     <Compile Include="bilingual.Designer.cs">
       <DependentUpon>bilingual.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lapruebadelwero.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Lapruebadelwero.Designer.cs">
-      <DependentUpon>Lapruebadelwero.cs</DependentUpon>
-    </Compile>
     <Compile Include="RegAlumnos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,9 +88,6 @@
     </Compile>
     <EmbeddedResource Include="bilingual.resx">
       <DependentUpon>bilingual.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Lapruebadelwero.resx">
-      <DependentUpon>Lapruebadelwero.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegAlumnos.resx">
       <DependentUpon>RegAlumnos.cs</DependentUpon>

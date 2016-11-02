@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BilingualApp
 {
-    public partial class aiiiiuuuuudaaaaa : Form
+    public partial class Lapruebadelwero : Form
     {
-        public aiiiiuuuuudaaaaa()
+        public Lapruebadelwero()
         {
             InitializeComponent();
         }

@@ -48,11 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="aiiiiuuuuudaaaaa.cs">
+    <Compile Include="1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="aiiiiuuuuudaaaaa.Designer.cs">
-      <DependentUpon>aiiiiuuuuudaaaaa.cs</DependentUpon>
+    <Compile Include="1.Designer.cs">
+      <DependentUpon>1.cs</DependentUpon>
     </Compile>
     <Compile Include="bilingual.cs">
       <SubType>Form</SubType>
@@ -92,9 +92,6 @@
     <Compile Include="registrar.Designer.cs">
       <DependentUpon>registrar.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="aiiiiuuuuudaaaaa.resx">
-      <DependentUpon>aiiiiuuuuudaaaaa.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="bilingual.resx">
       <DependentUpon>bilingual.cs</DependentUpon>
     </EmbeddedResource>

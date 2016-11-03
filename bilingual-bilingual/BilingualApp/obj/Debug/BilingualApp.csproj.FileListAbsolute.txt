@@ -20,3 +20,4 @@ C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\Biling
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.exe
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\bin\Debug\BilingualApp.XML
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.pdb
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.RegAlumnos.resources

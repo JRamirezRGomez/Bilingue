@@ -1,6 +1,6 @@
 ﻿namespace BilingualApp
 {
-    partial class registrar
+    partial class Registrar
     {
         /// <summary>
         /// Required designer variable.
@@ -28,38 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(registrar));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registrar));
+            this.TxtContrasena = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.BtnHome = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.TxtAM = new System.Windows.Forms.TextBox();
+            this.TxtAP = new System.Windows.Forms.TextBox();
+            this.TxtNombre = new System.Windows.Forms.TextBox();
+            this.TxtCorreo = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.BtnHome)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // TxtContrasena
             // 
-            this.textBox1.Location = new System.Drawing.Point(214, 60);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(204, 20);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Tag = "";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(214, 112);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.PasswordChar = '*';
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 2;
+            this.TxtContrasena.Location = new System.Drawing.Point(244, 205);
+            this.TxtContrasena.Name = "TxtContrasena";
+            this.TxtContrasena.PasswordChar = '*';
+            this.TxtContrasena.Size = new System.Drawing.Size(204, 20);
+            this.TxtContrasena.TabIndex = 2;
+            this.TxtContrasena.TextChanged += new System.EventHandler(this.TxtContrasena_TextChanged);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(105, 203);
+            this.button1.Location = new System.Drawing.Point(135, 311);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 3;
@@ -69,7 +66,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(239, 203);
+            this.button2.Location = new System.Drawing.Point(373, 311);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 4;
@@ -80,7 +77,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(103, 63);
+            this.label1.Location = new System.Drawing.Point(132, 81);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 5;
@@ -89,28 +86,20 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(102, 115);
+            this.label3.Location = new System.Drawing.Point(132, 212);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(61, 13);
             this.label3.TabIndex = 7;
             this.label3.Text = "Contraseña";
             // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(214, 164);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(204, 20);
-            this.textBox5.TabIndex = 9;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(102, 167);
+            this.label5.Location = new System.Drawing.Point(132, 257);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(45, 13);
+            this.label5.Size = new System.Drawing.Size(94, 13);
             this.label5.TabIndex = 15;
-            this.label5.Text = "CorreoE";
+            this.label5.Text = "Correo Electronico";
             // 
             // BtnHome
             // 
@@ -123,20 +112,75 @@
             this.BtnHome.TabStop = false;
             this.BtnHome.Click += new System.EventHandler(this.BtnHome_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(132, 125);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(82, 13);
+            this.label2.TabIndex = 19;
+            this.label2.Text = "Apelido Paterno";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(132, 169);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(86, 13);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "Apellido Materno";
+            // 
+            // TxtAM
+            // 
+            this.TxtAM.Location = new System.Drawing.Point(244, 162);
+            this.TxtAM.Name = "TxtAM";
+            this.TxtAM.Size = new System.Drawing.Size(204, 20);
+            this.TxtAM.TabIndex = 21;
+            this.TxtAM.TextChanged += new System.EventHandler(this.TxtAM_TextChanged);
+            // 
+            // TxtAP
+            // 
+            this.TxtAP.Location = new System.Drawing.Point(244, 118);
+            this.TxtAP.Name = "TxtAP";
+            this.TxtAP.Size = new System.Drawing.Size(204, 20);
+            this.TxtAP.TabIndex = 22;
+            this.TxtAP.TextChanged += new System.EventHandler(this.TxtAP_TextChanged);
+            // 
+            // TxtNombre
+            // 
+            this.TxtNombre.Location = new System.Drawing.Point(244, 74);
+            this.TxtNombre.Name = "TxtNombre";
+            this.TxtNombre.Size = new System.Drawing.Size(204, 20);
+            this.TxtNombre.TabIndex = 23;
+            this.TxtNombre.TextChanged += new System.EventHandler(this.TxtNombre_TextChanged);
+            // 
+            // TxtCorreo
+            // 
+            this.TxtCorreo.Location = new System.Drawing.Point(244, 249);
+            this.TxtCorreo.Name = "TxtCorreo";
+            this.TxtCorreo.Size = new System.Drawing.Size(204, 20);
+            this.TxtCorreo.TabIndex = 24;
+            this.TxtCorreo.TextChanged += new System.EventHandler(this.TxtCorreo_TextChanged);
+            // 
             // registrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(487, 284);
+            this.ClientSize = new System.Drawing.Size(566, 379);
+            this.Controls.Add(this.TxtCorreo);
+            this.Controls.Add(this.TxtNombre);
+            this.Controls.Add(this.TxtAP);
+            this.Controls.Add(this.TxtAM);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TxtContrasena);
             this.Controls.Add(this.BtnHome);
             this.Name = "registrar";
             this.Text = "registrar";
@@ -148,15 +192,18 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox TxtContrasena;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox BtnHome;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox TxtAM;
+        private System.Windows.Forms.TextBox TxtAP;
+        private System.Windows.Forms.TextBox TxtNombre;
+        private System.Windows.Forms.TextBox TxtCorreo;
     }
 }

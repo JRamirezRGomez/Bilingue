@@ -42,7 +42,7 @@ namespace BilingualApp
 
         private void BtnAtras_Click(object sender, EventArgs e)
         {
-            bilingual b= new bilingual();
+            Bilingual b= new Bilingual();
             b.Visible = true;
             Close();
             //Ajustes de prueba

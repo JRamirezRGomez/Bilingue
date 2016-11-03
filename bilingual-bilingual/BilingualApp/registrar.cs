@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace BilingualApp
 {
-    public partial class registrar : Form
+    public partial class Registrar : Form
     {
-        public registrar()
+        public Registrar()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            bilingual bi = new bilingual();
+            Bilingual bi = new Bilingual();
             bi.Visible = true;
             Close();
         }
@@ -34,15 +34,6 @@ namespace BilingualApp
 
         }
 
-        private void textBox5_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void registrar_Load(object sender, EventArgs e)
         {
@@ -54,6 +45,41 @@ namespace BilingualApp
             Home c = new Home();
             c.Visible = true;
             Close();
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtAP_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtAM_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtContrasena_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtCorreo_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

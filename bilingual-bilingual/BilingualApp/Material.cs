@@ -58,7 +58,7 @@ namespace BilingualApp
         {
             if(Gramatica.Checked=false)
             {
-                grama.Enabled = false;
+                grama.Enabled = false;//fix
             }
         }
 

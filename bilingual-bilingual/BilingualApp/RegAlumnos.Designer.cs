@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegAlumnos));
             this.label1 = new System.Windows.Forms.Label();
             this.BtnAtras = new System.Windows.Forms.Button();
             this.NumTotal = new System.Windows.Forms.Label();
@@ -41,6 +42,8 @@
             this.TxtNombre = new System.Windows.Forms.TextBox();
             this.TxtAP = new System.Windows.Forms.TextBox();
             this.TxtAM = new System.Windows.Forms.TextBox();
+            this.BtnHome = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnHome)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -156,6 +159,17 @@
             this.TxtAM.Size = new System.Drawing.Size(187, 20);
             this.TxtAM.TabIndex = 13;
             // 
+            // BtnHome
+            // 
+            this.BtnHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.Image")));
+            this.BtnHome.Location = new System.Drawing.Point(12, 10);
+            this.BtnHome.Name = "BtnHome";
+            this.BtnHome.Size = new System.Drawing.Size(41, 55);
+            this.BtnHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.BtnHome.TabIndex = 14;
+            this.BtnHome.TabStop = false;
+            this.BtnHome.Click += new System.EventHandler(this.BtnHome_Click);
+            // 
             // RegAlumnos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -175,9 +189,11 @@
             this.Controls.Add(this.NumTotal);
             this.Controls.Add(this.BtnAtras);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.BtnHome);
             this.Name = "RegAlumnos";
-            this.Text = "RegAlumnos";
+            this.Text = "v";
             this.Load += new System.EventHandler(this.RegAlumnos_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.BtnHome)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,5 +214,6 @@
         private System.Windows.Forms.TextBox TxtNombre;
         private System.Windows.Forms.TextBox TxtAP;
         private System.Windows.Forms.TextBox TxtAM;
+        private System.Windows.Forms.PictureBox BtnHome;
     }
 }

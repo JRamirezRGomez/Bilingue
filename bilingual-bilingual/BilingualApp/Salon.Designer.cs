@@ -28,10 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Salon));
             this.label1 = new System.Windows.Forms.Label();
             this.Crear = new System.Windows.Forms.Button();
             this.BtnAtras = new System.Windows.Forms.Button();
             this.numalu = new System.Windows.Forms.TextBox();
+            this.BtnHome = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnHome)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -73,11 +76,23 @@
             this.numalu.TabIndex = 0;
             this.numalu.TextChanged += new System.EventHandler(this.numalu_TextChanged);
             // 
+            // BtnHome
+            // 
+            this.BtnHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.Image")));
+            this.BtnHome.Location = new System.Drawing.Point(12, 12);
+            this.BtnHome.Name = "BtnHome";
+            this.BtnHome.Size = new System.Drawing.Size(41, 55);
+            this.BtnHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.BtnHome.TabIndex = 15;
+            this.BtnHome.TabStop = false;
+            this.BtnHome.Click += new System.EventHandler(this.BtnHome_Click);
+            // 
             // Salon
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(435, 496);
+            this.Controls.Add(this.BtnHome);
             this.Controls.Add(this.BtnAtras);
             this.Controls.Add(this.Crear);
             this.Controls.Add(this.label1);
@@ -87,6 +102,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clases";
             this.Load += new System.EventHandler(this.Salon_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.BtnHome)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -97,5 +113,6 @@
         private System.Windows.Forms.Button Crear;
         private System.Windows.Forms.Button BtnAtras;
         private System.Windows.Forms.TextBox numalu;
+        private System.Windows.Forms.PictureBox BtnHome;
     }
 }

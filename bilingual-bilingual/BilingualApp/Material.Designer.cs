@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Material));
             this.Atras = new System.Windows.Forms.Button();
             this.VerboToBe = new System.Windows.Forms.CheckBox();
             this.DoWhile = new System.Windows.Forms.CheckBox();
@@ -39,11 +40,13 @@
             this.Nivel2dw = new System.Windows.Forms.Button();
             this.Nivel3dw = new System.Windows.Forms.Button();
             this.grama = new System.Windows.Forms.Button();
+            this.BtnHome = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnHome)).BeginInit();
             this.SuspendLayout();
             // 
             // Atras
             // 
-            this.Atras.Location = new System.Drawing.Point(23, 303);
+            this.Atras.Location = new System.Drawing.Point(111, 327);
             this.Atras.Name = "Atras";
             this.Atras.Size = new System.Drawing.Size(75, 23);
             this.Atras.TabIndex = 3;
@@ -54,7 +57,7 @@
             // VerboToBe
             // 
             this.VerboToBe.AutoSize = true;
-            this.VerboToBe.Location = new System.Drawing.Point(47, 37);
+            this.VerboToBe.Location = new System.Drawing.Point(135, 61);
             this.VerboToBe.Name = "VerboToBe";
             this.VerboToBe.Size = new System.Drawing.Size(89, 17);
             this.VerboToBe.TabIndex = 4;
@@ -65,7 +68,7 @@
             // DoWhile
             // 
             this.DoWhile.AutoSize = true;
-            this.DoWhile.Location = new System.Drawing.Point(47, 132);
+            this.DoWhile.Location = new System.Drawing.Point(135, 156);
             this.DoWhile.Name = "DoWhile";
             this.DoWhile.Size = new System.Drawing.Size(70, 17);
             this.DoWhile.TabIndex = 5;
@@ -76,7 +79,7 @@
             // Gramatica
             // 
             this.Gramatica.AutoSize = true;
-            this.Gramatica.Location = new System.Drawing.Point(47, 222);
+            this.Gramatica.Location = new System.Drawing.Point(135, 246);
             this.Gramatica.Name = "Gramatica";
             this.Gramatica.Size = new System.Drawing.Size(74, 17);
             this.Gramatica.TabIndex = 7;
@@ -86,7 +89,7 @@
             // 
             // Nivel1vtb
             // 
-            this.Nivel1vtb.Location = new System.Drawing.Point(169, 13);
+            this.Nivel1vtb.Location = new System.Drawing.Point(257, 37);
             this.Nivel1vtb.Name = "Nivel1vtb";
             this.Nivel1vtb.Size = new System.Drawing.Size(75, 23);
             this.Nivel1vtb.TabIndex = 8;
@@ -96,7 +99,7 @@
             // 
             // nivel2vtb
             // 
-            this.nivel2vtb.Location = new System.Drawing.Point(169, 43);
+            this.nivel2vtb.Location = new System.Drawing.Point(257, 67);
             this.nivel2vtb.Name = "nivel2vtb";
             this.nivel2vtb.Size = new System.Drawing.Size(75, 23);
             this.nivel2vtb.TabIndex = 9;
@@ -105,7 +108,7 @@
             // 
             // Nivel3vtb
             // 
-            this.Nivel3vtb.Location = new System.Drawing.Point(169, 72);
+            this.Nivel3vtb.Location = new System.Drawing.Point(257, 96);
             this.Nivel3vtb.Name = "Nivel3vtb";
             this.Nivel3vtb.Size = new System.Drawing.Size(75, 23);
             this.Nivel3vtb.TabIndex = 10;
@@ -114,7 +117,7 @@
             // 
             // Nivel1dw
             // 
-            this.Nivel1dw.Location = new System.Drawing.Point(169, 113);
+            this.Nivel1dw.Location = new System.Drawing.Point(257, 137);
             this.Nivel1dw.Name = "Nivel1dw";
             this.Nivel1dw.Size = new System.Drawing.Size(75, 23);
             this.Nivel1dw.TabIndex = 11;
@@ -123,7 +126,7 @@
             // 
             // Nivel2dw
             // 
-            this.Nivel2dw.Location = new System.Drawing.Point(169, 142);
+            this.Nivel2dw.Location = new System.Drawing.Point(257, 166);
             this.Nivel2dw.Name = "Nivel2dw";
             this.Nivel2dw.Size = new System.Drawing.Size(75, 23);
             this.Nivel2dw.TabIndex = 12;
@@ -132,7 +135,7 @@
             // 
             // Nivel3dw
             // 
-            this.Nivel3dw.Location = new System.Drawing.Point(169, 171);
+            this.Nivel3dw.Location = new System.Drawing.Point(257, 195);
             this.Nivel3dw.Name = "Nivel3dw";
             this.Nivel3dw.Size = new System.Drawing.Size(75, 23);
             this.Nivel3dw.TabIndex = 13;
@@ -141,18 +144,30 @@
             // 
             // grama
             // 
-            this.grama.Location = new System.Drawing.Point(169, 222);
+            this.grama.Location = new System.Drawing.Point(257, 246);
             this.grama.Name = "grama";
             this.grama.Size = new System.Drawing.Size(75, 23);
             this.grama.TabIndex = 14;
             this.grama.Text = "Nivel 1";
             this.grama.UseVisualStyleBackColor = true;
             // 
+            // BtnHome
+            // 
+            this.BtnHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.Image")));
+            this.BtnHome.Location = new System.Drawing.Point(12, 12);
+            this.BtnHome.Name = "BtnHome";
+            this.BtnHome.Size = new System.Drawing.Size(41, 55);
+            this.BtnHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.BtnHome.TabIndex = 17;
+            this.BtnHome.TabStop = false;
+            this.BtnHome.Click += new System.EventHandler(this.BtnHome_Click);
+            // 
             // Material
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(273, 355);
+            this.ClientSize = new System.Drawing.Size(427, 401);
+            this.Controls.Add(this.BtnHome);
             this.Controls.Add(this.grama);
             this.Controls.Add(this.Nivel3dw);
             this.Controls.Add(this.Nivel2dw);
@@ -167,6 +182,7 @@
             this.Name = "Material";
             this.Text = "Material";
             this.Load += new System.EventHandler(this.Material_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.BtnHome)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -184,5 +200,6 @@
         private System.Windows.Forms.Button Nivel2dw;
         private System.Windows.Forms.Button Nivel3dw;
         private System.Windows.Forms.Button grama;
+        private System.Windows.Forms.PictureBox BtnHome;
     }
 }

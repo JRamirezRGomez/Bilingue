@@ -43,5 +43,18 @@ namespace BilingualApp
         {
 
         }
+
+        private void registrar_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnHome_Click(object sender, EventArgs e)
+        {
+            Home c = new Home();
+            c.Visible = true;
+            Close();
+
+        }
     }
 }

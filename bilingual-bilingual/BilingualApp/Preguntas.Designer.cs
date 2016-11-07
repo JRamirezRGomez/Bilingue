@@ -38,15 +38,15 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(12, 12);
+            this.richTextBox1.Location = new System.Drawing.Point(2, 12);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(447, 243);
+            this.richTextBox1.Size = new System.Drawing.Size(463, 243);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(458, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(465, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(271, 243);
             this.pictureBox1.TabIndex = 1;

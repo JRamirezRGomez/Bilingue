@@ -21,3 +21,4 @@ C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Deb
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\bin\Debug\BilingualApp.XML
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.pdb
 C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.RegAlumnos.resources
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.Preguntas.resources

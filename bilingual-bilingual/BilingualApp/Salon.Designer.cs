@@ -40,7 +40,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(99, 60);
+            this.label1.Location = new System.Drawing.Point(99, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(230, 13);
             this.label1.TabIndex = 1;
@@ -48,7 +48,6 @@
             // 
             // Crear
             // 
-            this.Crear.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Crear.Location = new System.Drawing.Point(293, 249);
             this.Crear.Name = "Crear";
             this.Crear.Size = new System.Drawing.Size(75, 23);
@@ -59,7 +58,6 @@
             // 
             // BtnAtras
             // 
-            this.BtnAtras.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnAtras.Location = new System.Drawing.Point(66, 249);
             this.BtnAtras.Name = "BtnAtras";
             this.BtnAtras.Size = new System.Drawing.Size(75, 23);
@@ -70,7 +68,7 @@
             // 
             // numalu
             // 
-            this.numalu.Location = new System.Drawing.Point(102, 142);
+            this.numalu.Location = new System.Drawing.Point(102, 53);
             this.numalu.MaxLength = 2;
             this.numalu.Multiline = true;
             this.numalu.Name = "numalu";
@@ -94,7 +92,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(435, 496);
+            this.ClientSize = new System.Drawing.Size(435, 206);
             this.Controls.Add(this.BtnHome);
             this.Controls.Add(this.BtnAtras);
             this.Controls.Add(this.Crear);

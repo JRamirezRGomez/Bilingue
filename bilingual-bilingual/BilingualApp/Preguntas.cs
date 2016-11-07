@@ -16,5 +16,10 @@ namespace BilingualApp
         {
             InitializeComponent();
         }
+
+        private void OpA_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
     }
 }

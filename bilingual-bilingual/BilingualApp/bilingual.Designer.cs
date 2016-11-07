@@ -1,6 +1,6 @@
 ﻿namespace BilingualApp
 {
-    partial class bilingual
+    partial class Bilingual
     {
         /// <summary>
         /// Required designer variable.

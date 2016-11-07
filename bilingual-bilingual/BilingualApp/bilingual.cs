@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace BilingualApp
 {
-    public partial class bilingual : Form
+    public partial class Bilingual : Form
     {
         public string user, pass;
 
-        public bilingual()
+        public Bilingual()
         {
             InitializeComponent();
         }
@@ -33,7 +33,7 @@ namespace BilingualApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            registrar reg = new registrar();
+            Registrar reg = new Registrar();
             reg.Visible = true;
             Hide();
 

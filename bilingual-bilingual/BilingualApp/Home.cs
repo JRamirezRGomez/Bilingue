@@ -37,7 +37,7 @@ namespace BilingualApp
 
         private void bilingual_Click(object sender, EventArgs e)
         {
-            bilingual bi = new bilingual();
+            Bilingual bi = new Bilingual();
             bi.Visible = true;
             Hide();
         }

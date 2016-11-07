@@ -30,8 +30,8 @@
         {
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.OpA = new System.Windows.Forms.LinkLabel();
+            this.OpB = new System.Windows.Forms.LinkLabel();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -52,25 +52,28 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // linkLabel1
+            // OpA
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(97, 388);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(57, 13);
-            this.linkLabel1.TabIndex = 2;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Opcion   A";
+            this.OpA.AutoSize = true;
+            this.OpA.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.OpA.Location = new System.Drawing.Point(97, 388);
+            this.OpA.Name = "OpA";
+            this.OpA.Size = new System.Drawing.Size(57, 13);
+            this.OpA.TabIndex = 2;
+            this.OpA.TabStop = true;
+            this.OpA.Text = "Opcion   A";
+            this.OpA.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.OpA.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OpA_LinkClicked);
             // 
-            // linkLabel2
+            // OpB
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(315, 390);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(55, 13);
-            this.linkLabel2.TabIndex = 3;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "linkLabel2";
+            this.OpB.AutoSize = true;
+            this.OpB.Location = new System.Drawing.Point(315, 390);
+            this.OpB.Name = "OpB";
+            this.OpB.Size = new System.Drawing.Size(55, 13);
+            this.OpB.TabIndex = 3;
+            this.OpB.TabStop = true;
+            this.OpB.Text = "linkLabel2";
             // 
             // linkLabel3
             // 
@@ -88,8 +91,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(742, 492);
             this.Controls.Add(this.linkLabel3);
-            this.Controls.Add(this.linkLabel2);
-            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.OpB);
+            this.Controls.Add(this.OpA);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.richTextBox1);
             this.Name = "Preguntas";
@@ -104,8 +107,8 @@
 
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.LinkLabel OpA;
+        private System.Windows.Forms.LinkLabel OpB;
         private System.Windows.Forms.LinkLabel linkLabel3;
     }
 }

@@ -28,11 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Preguntas));
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.OpA = new System.Windows.Forms.LinkLabel();
-            this.OpB = new System.Windows.Forms.LinkLabel();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,49 +56,74 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // OpA
+            // label1
             // 
-            this.OpA.AutoSize = true;
-            this.OpA.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.OpA.Location = new System.Drawing.Point(97, 388);
-            this.OpA.Name = "OpA";
-            this.OpA.Size = new System.Drawing.Size(57, 13);
-            this.OpA.TabIndex = 2;
-            this.OpA.TabStop = true;
-            this.OpA.Text = "Opcion   A";
-            this.OpA.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.OpA.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OpA_LinkClicked);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(9, 303);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(16, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "1)";
             // 
-            // OpB
+            // label2
             // 
-            this.OpB.AutoSize = true;
-            this.OpB.Location = new System.Drawing.Point(315, 390);
-            this.OpB.Name = "OpB";
-            this.OpB.Size = new System.Drawing.Size(55, 13);
-            this.OpB.TabIndex = 3;
-            this.OpB.TabStop = true;
-            this.OpB.Text = "linkLabel2";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(9, 374);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(16, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "2)";
             // 
-            // linkLabel3
+            // label3
             // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Location = new System.Drawing.Point(542, 386);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(55, 13);
-            this.linkLabel3.TabIndex = 4;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "linkLabel3";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(9, 440);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(16, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "3)";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(44, 116);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(15, 13);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Is";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(86, 116);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(24, 13);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "she";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(157, 116);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(51, 13);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "intelligent";
             // 
             // Preguntas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(742, 492);
-            this.Controls.Add(this.linkLabel3);
-            this.Controls.Add(this.OpB);
-            this.Controls.Add(this.OpA);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Preguntas";
             this.Text = "Preguntas";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -107,8 +136,11 @@
 
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.LinkLabel OpA;
-        private System.Windows.Forms.LinkLabel OpB;
-        private System.Windows.Forms.LinkLabel linkLabel3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }

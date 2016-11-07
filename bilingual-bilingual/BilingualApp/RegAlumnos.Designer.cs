@@ -58,6 +58,7 @@
             // 
             // BtnAtras
             // 
+            this.BtnAtras.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnAtras.Location = new System.Drawing.Point(105, 237);
             this.BtnAtras.Name = "BtnAtras";
             this.BtnAtras.Size = new System.Drawing.Size(75, 23);
@@ -87,6 +88,7 @@
             // 
             // BtnRegistrar
             // 
+            this.BtnRegistrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRegistrar.Location = new System.Drawing.Point(354, 237);
             this.BtnRegistrar.Name = "BtnRegistrar";
             this.BtnRegistrar.Size = new System.Drawing.Size(75, 23);
@@ -161,6 +163,7 @@
             // 
             // BtnHome
             // 
+            this.BtnHome.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.Image")));
             this.BtnHome.Location = new System.Drawing.Point(12, 10);
             this.BtnHome.Name = "BtnHome";
@@ -190,8 +193,9 @@
             this.Controls.Add(this.BtnAtras);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnHome);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "RegAlumnos";
-            this.Text = "v";
+            this.Text = "Registro de Alumnos";
             this.Load += new System.EventHandler(this.RegAlumnos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.BtnHome)).EndInit();
             this.ResumeLayout(false);

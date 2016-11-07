@@ -46,6 +46,9 @@
             // 
             // Atras
             // 
+            this.Atras.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Atras.Location = new System.Drawing.Point(111, 327);
             this.Atras.Name = "Atras";
             this.Atras.Size = new System.Drawing.Size(75, 23);
@@ -56,6 +59,9 @@
             // 
             // VerboToBe
             // 
+            this.VerboToBe.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.VerboToBe.AutoSize = true;
             this.VerboToBe.Location = new System.Drawing.Point(135, 61);
             this.VerboToBe.Name = "VerboToBe";
@@ -67,6 +73,9 @@
             // 
             // DoWhile
             // 
+            this.DoWhile.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.DoWhile.AutoSize = true;
             this.DoWhile.Location = new System.Drawing.Point(135, 156);
             this.DoWhile.Name = "DoWhile";
@@ -78,6 +87,9 @@
             // 
             // Gramatica
             // 
+            this.Gramatica.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Gramatica.AutoSize = true;
             this.Gramatica.Location = new System.Drawing.Point(135, 246);
             this.Gramatica.Name = "Gramatica";
@@ -89,6 +101,9 @@
             // 
             // Nivel1vtb
             // 
+            this.Nivel1vtb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Nivel1vtb.Location = new System.Drawing.Point(257, 37);
             this.Nivel1vtb.Name = "Nivel1vtb";
             this.Nivel1vtb.Size = new System.Drawing.Size(75, 23);
@@ -99,6 +114,9 @@
             // 
             // nivel2vtb
             // 
+            this.nivel2vtb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.nivel2vtb.Location = new System.Drawing.Point(257, 67);
             this.nivel2vtb.Name = "nivel2vtb";
             this.nivel2vtb.Size = new System.Drawing.Size(75, 23);
@@ -109,6 +127,9 @@
             // 
             // Nivel3vtb
             // 
+            this.Nivel3vtb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Nivel3vtb.Location = new System.Drawing.Point(257, 96);
             this.Nivel3vtb.Name = "Nivel3vtb";
             this.Nivel3vtb.Size = new System.Drawing.Size(75, 23);
@@ -119,6 +140,9 @@
             // 
             // Nivel1dw
             // 
+            this.Nivel1dw.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Nivel1dw.Location = new System.Drawing.Point(257, 137);
             this.Nivel1dw.Name = "Nivel1dw";
             this.Nivel1dw.Size = new System.Drawing.Size(75, 23);
@@ -129,6 +153,9 @@
             // 
             // Nivel2dw
             // 
+            this.Nivel2dw.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Nivel2dw.Location = new System.Drawing.Point(257, 166);
             this.Nivel2dw.Name = "Nivel2dw";
             this.Nivel2dw.Size = new System.Drawing.Size(75, 23);
@@ -139,6 +166,9 @@
             // 
             // Nivel3dw
             // 
+            this.Nivel3dw.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Nivel3dw.Location = new System.Drawing.Point(257, 195);
             this.Nivel3dw.Name = "Nivel3dw";
             this.Nivel3dw.Size = new System.Drawing.Size(75, 23);
@@ -149,6 +179,9 @@
             // 
             // grama
             // 
+            this.grama.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.grama.Location = new System.Drawing.Point(257, 246);
             this.grama.Name = "grama";
             this.grama.Size = new System.Drawing.Size(75, 23);
@@ -172,7 +205,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(427, 401);
+            this.ClientSize = new System.Drawing.Size(691, 401);
             this.Controls.Add(this.BtnHome);
             this.Controls.Add(this.grama);
             this.Controls.Add(this.Nivel3dw);
@@ -185,6 +218,7 @@
             this.Controls.Add(this.DoWhile);
             this.Controls.Add(this.VerboToBe);
             this.Controls.Add(this.Atras);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Material";
             this.Text = "Material";
             this.Load += new System.EventHandler(this.Material_Load);

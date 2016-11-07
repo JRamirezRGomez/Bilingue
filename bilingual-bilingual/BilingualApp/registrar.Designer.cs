@@ -56,6 +56,7 @@
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Location = new System.Drawing.Point(135, 311);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -66,6 +67,7 @@
             // 
             // button2
             // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Location = new System.Drawing.Point(373, 311);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
@@ -103,6 +105,7 @@
             // 
             // BtnHome
             // 
+            this.BtnHome.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.Image")));
             this.BtnHome.Location = new System.Drawing.Point(12, 12);
             this.BtnHome.Name = "BtnHome";
@@ -163,7 +166,7 @@
             this.TxtCorreo.TabIndex = 24;
             this.TxtCorreo.TextChanged += new System.EventHandler(this.TxtCorreo_TextChanged);
             // 
-            // registrar
+            // Registrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -182,8 +185,9 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.TxtContrasena);
             this.Controls.Add(this.BtnHome);
-            this.Name = "registrar";
-            this.Text = "registrar";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Registrar";
+            this.Text = "Registrar";
             this.Load += new System.EventHandler(this.registrar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.BtnHome)).EndInit();
             this.ResumeLayout(false);

@@ -21,3 +21,16 @@ C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Deb
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\bin\Debug\BilingualApp.XML
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.pdb
 C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.RegAlumnos.resources
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.csprojResolveAssemblyReference.cache
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.Bilingual.resources
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.Preguntas.resources
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.RegAlumnos.resources
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.Salon.resources
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.Home.resources
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.Material.resources
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.Properties.Resources.resources
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.Registrar.resources
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.csproj.GenerateResource.Cache
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\BilingualApp.exe
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\BilingualApp.pdb
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\BilingualApp.XML

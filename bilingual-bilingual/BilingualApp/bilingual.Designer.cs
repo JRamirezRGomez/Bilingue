@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Bilingual));
             this.textnom = new System.Windows.Forms.TextBox();
             this.textpass = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -64,6 +65,7 @@
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Location = new System.Drawing.Point(137, 195);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -74,6 +76,7 @@
             // 
             // button2
             // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Location = new System.Drawing.Point(225, 195);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(93, 23);
@@ -84,6 +87,7 @@
             // 
             // button3
             // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Location = new System.Drawing.Point(13, 194);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(45, 24);
@@ -101,7 +105,7 @@
             this.label1.TabIndex = 7;
             this.label1.Text = "Correo Electronico";
             // 
-            // bilingual
+            // Bilingual
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -114,8 +118,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textpass);
             this.Controls.Add(this.textnom);
-            this.Name = "bilingual";
-            this.Text = "bilingual";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Bilingual";
+            this.Text = "Bilingual";
             this.ResumeLayout(false);
             this.PerformLayout();
 

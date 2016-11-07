@@ -28,12 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.traductor = new System.Windows.Forms.Button();
             this.bilingual = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // traductor
             // 
+            this.traductor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.traductor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.traductor.Location = new System.Drawing.Point(155, 117);
             this.traductor.Name = "traductor";
             this.traductor.Size = new System.Drawing.Size(75, 23);
@@ -44,6 +47,8 @@
             // 
             // bilingual
             // 
+            this.bilingual.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.bilingual.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bilingual.Location = new System.Drawing.Point(313, 117);
             this.bilingual.Name = "bilingual";
             this.bilingual.Size = new System.Drawing.Size(75, 23);
@@ -60,6 +65,7 @@
             this.ClientSize = new System.Drawing.Size(537, 261);
             this.Controls.Add(this.bilingual);
             this.Controls.Add(this.traductor);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Home";
             this.Text = "Home";
             this.Load += new System.EventHandler(this.Home_Load);

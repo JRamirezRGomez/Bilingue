@@ -48,6 +48,7 @@
             // 
             // Crear
             // 
+            this.Crear.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Crear.Location = new System.Drawing.Point(293, 249);
             this.Crear.Name = "Crear";
             this.Crear.Size = new System.Drawing.Size(75, 23);
@@ -58,6 +59,7 @@
             // 
             // BtnAtras
             // 
+            this.BtnAtras.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnAtras.Location = new System.Drawing.Point(66, 249);
             this.BtnAtras.Name = "BtnAtras";
             this.BtnAtras.Size = new System.Drawing.Size(75, 23);
@@ -78,6 +80,7 @@
             // 
             // BtnHome
             // 
+            this.BtnHome.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.Image")));
             this.BtnHome.Location = new System.Drawing.Point(12, 12);
             this.BtnHome.Name = "BtnHome";
@@ -98,6 +101,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.numalu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Salon";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clases";

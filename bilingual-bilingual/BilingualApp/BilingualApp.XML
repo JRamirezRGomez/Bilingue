@@ -4,18 +4,35 @@
         <name>BilingualApp</name>
     </assembly>
     <members>
-        <member name="F:BilingualApp.bilingual.components">
+        <member name="F:BilingualApp.Bilingual.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:BilingualApp.bilingual.Dispose(System.Boolean)">
+        <member name="M:BilingualApp.Bilingual.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:BilingualApp.bilingual.InitializeComponent">
+        <member name="M:BilingualApp.Bilingual.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:BilingualApp.Preguntas.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BilingualApp.Preguntas.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BilingualApp.Preguntas.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
@@ -94,18 +111,18 @@
             The main entry point for the application.
             </summary>
         </member>
-        <member name="F:BilingualApp.registrar.components">
+        <member name="F:BilingualApp.Registrar.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:BilingualApp.registrar.Dispose(System.Boolean)">
+        <member name="M:BilingualApp.Registrar.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:BilingualApp.registrar.InitializeComponent">
+        <member name="M:BilingualApp.Registrar.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.

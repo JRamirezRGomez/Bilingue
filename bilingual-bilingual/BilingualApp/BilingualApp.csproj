@@ -60,11 +60,23 @@
     <Compile Include="ConexionBD.Designer.cs">
       <DependentUpon>ConexionBD.cs</DependentUpon>
     </Compile>
-    <Compile Include="Preguntas.cs">
+    <Compile Include="PreguntasVERBTOBENvl2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Preguntas.Designer.cs">
-      <DependentUpon>Preguntas.cs</DependentUpon>
+    <Compile Include="PreguntasVERBTOBENvl2.Designer.cs">
+      <DependentUpon>PreguntasVERBTOBENvl2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasVERBTOBENvl3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreguntasVERBTOBENvl3.Designer.cs">
+      <DependentUpon>PreguntasVERBTOBENvl3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasVERBTOBENvl1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreguntasVERBTOBENvl1.Designer.cs">
+      <DependentUpon>PreguntasVERBTOBENvl1.cs</DependentUpon>
     </Compile>
     <Compile Include="RegAlumnos.cs">
       <SubType>Form</SubType>
@@ -101,8 +113,14 @@
     <EmbeddedResource Include="Bilingual.resx">
       <DependentUpon>Bilingual.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Preguntas.resx">
-      <DependentUpon>Preguntas.cs</DependentUpon>
+    <EmbeddedResource Include="PreguntasVERBTOBENvl2.resx">
+      <DependentUpon>PreguntasVERBTOBENvl2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreguntasVERBTOBENvl1.resx">
+      <DependentUpon>PreguntasVERBTOBENvl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreguntasVERBTOBENvl3.resx">
+      <DependentUpon>PreguntasVERBTOBENvl3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegAlumnos.resx">
       <DependentUpon>RegAlumnos.cs</DependentUpon>

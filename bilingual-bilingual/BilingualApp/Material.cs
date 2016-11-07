@@ -75,49 +75,49 @@ namespace BilingualApp
 
         private void Nivel1vtb_Click(object sender, EventArgs e)
         {
-            Preguntas p = new Preguntas();
+            PreguntasVERBTOBENvl1 p = new PreguntasVERBTOBENvl1();
             p.Visible = true;
             Close();
         }
 
         private void nivel2vtb_Click(object sender, EventArgs e)
         {
-            Preguntas p = new Preguntas();
+            PreguntasVERBTOBENvl1 p = new PreguntasVERBTOBENvl1();
             p.Visible = true;
             Close();
         }
 
         private void Nivel3vtb_Click(object sender, EventArgs e)
         {
-            Preguntas p = new Preguntas();
+            PreguntasVERBTOBENvl1 p = new PreguntasVERBTOBENvl1();
             p.Visible = true;
             Close();
         }
 
         private void Nivel1dw_Click(object sender, EventArgs e)
         {
-            Preguntas p = new Preguntas();
+            PreguntasVERBTOBENvl1 p = new PreguntasVERBTOBENvl1();
             p.Visible = true;
             Close();
         }
 
         private void Nivel2dw_Click(object sender, EventArgs e)
         {
-            Preguntas p = new Preguntas();
+            PreguntasVERBTOBENvl1 p = new PreguntasVERBTOBENvl1();
             p.Visible = true;
             Close();
         }
 
         private void Nivel3dw_Click(object sender, EventArgs e)
         {
-            Preguntas p = new Preguntas();
+            PreguntasVERBTOBENvl1 p = new PreguntasVERBTOBENvl1();
             p.Visible = true;
             Close();
         }
 
         private void grama_Click(object sender, EventArgs e)
         {
-            Preguntas p = new Preguntas();
+            PreguntasVERBTOBENvl1 p = new PreguntasVERBTOBENvl1();
             p.Visible = true;
             Close();
         }

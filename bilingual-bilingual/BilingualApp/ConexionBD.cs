@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace BilingualApp
 {
@@ -16,5 +17,20 @@ namespace BilingualApp
         {
             InitializeComponent();
         }
+
+        MySqlConnectionStringBuilder builder = new MySqlConnectionStringBuilder();
+        builder.Server = "localhost";
+            builder.UserID = "root";
+            builder.Password = "";
+            builder.Database = "mydb01";
+
+            MySqlConnection conn = new MySqlConnection(builder.ToString());
+        MySqlCommand cmd = conn.CreateCommand();
+        cmd.CommandText = "INSERT INTO mitabla (valor1,valor2) value (1,2)";
+            conn.Open();
+            cmd.ExecuteNonQuery();
+
+
+
     }
 }

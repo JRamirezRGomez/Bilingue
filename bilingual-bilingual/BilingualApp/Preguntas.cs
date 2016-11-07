@@ -21,5 +21,10 @@ namespace BilingualApp
         {
 
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            richTextBox1.Text = "";
+        }
     }
 }

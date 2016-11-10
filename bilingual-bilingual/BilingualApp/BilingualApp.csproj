@@ -55,11 +55,11 @@
     <Compile Include="Bilingual.Designer.cs">
       <DependentUpon>Bilingual.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConeccionBD.cs">
+    <Compile Include="ConexionBD.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConeccionBD.Designer.cs">
-      <DependentUpon>ConeccionBD.cs</DependentUpon>
+    <Compile Include="ConexionBD.Designer.cs">
+      <DependentUpon>ConexionBD.cs</DependentUpon>
     </Compile>
     <Compile Include="PreguntasVERBTOBENvl2.cs">
       <SubType>Form</SubType>

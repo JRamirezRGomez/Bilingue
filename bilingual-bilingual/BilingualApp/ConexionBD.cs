@@ -17,16 +17,23 @@ namespace BilingualApp
     public partial class ConexionBD : Form
     {
         public ConexionBD()
+
         {
+
             InitializeComponent();
 
-            MySqlConnectionStringBuilder builder = new MySqlConnectionStringBuilder();
-            builder.Server = "localhost";
-            builder.UserID = "root";
-            builder.Password = "";
-            builder.Database = "Bilingual";
+            MySqlConnectionStringBuilder Conectar = new MySqlConnectionStringBuilder();
+            Conectar.Server = "localhost";
+            Conectar.UserID = "root";
+            Conectar.Password = "";
+            Conectar.Database = "Bilingual";
+
         }
 
-        
-    }
-}
+            
+
+                 
+      
+            }
+          
+        }

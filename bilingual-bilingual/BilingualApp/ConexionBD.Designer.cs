@@ -1,6 +1,6 @@
 ﻿namespace BilingualApp
 {
-    partial class ConexionBD
+    partial class Conexion
     {
         /// <summary>
         /// Required designer variable.

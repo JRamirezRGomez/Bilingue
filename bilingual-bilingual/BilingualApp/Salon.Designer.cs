@@ -40,17 +40,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(99, 12);
+            this.label1.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(116, 62);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(230, 13);
+            this.label1.Size = new System.Drawing.Size(313, 21);
             this.label1.TabIndex = 1;
             this.label1.Text = "Indique el numero de Estudiantes de esta clase";
             // 
             // Crear
             // 
-            this.Crear.Location = new System.Drawing.Point(293, 249);
+            this.Crear.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
+            this.Crear.Location = new System.Drawing.Point(337, 249);
             this.Crear.Name = "Crear";
-            this.Crear.Size = new System.Drawing.Size(75, 23);
+            this.Crear.Size = new System.Drawing.Size(75, 28);
             this.Crear.TabIndex = 2;
             this.Crear.Text = "Crear";
             this.Crear.UseVisualStyleBackColor = true;
@@ -58,9 +60,10 @@
             // 
             // BtnAtras
             // 
-            this.BtnAtras.Location = new System.Drawing.Point(66, 249);
+            this.BtnAtras.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
+            this.BtnAtras.Location = new System.Drawing.Point(103, 249);
             this.BtnAtras.Name = "BtnAtras";
-            this.BtnAtras.Size = new System.Drawing.Size(75, 23);
+            this.BtnAtras.Size = new System.Drawing.Size(75, 28);
             this.BtnAtras.TabIndex = 3;
             this.BtnAtras.Text = "Atras";
             this.BtnAtras.UseVisualStyleBackColor = true;
@@ -68,7 +71,8 @@
             // 
             // numalu
             // 
-            this.numalu.Location = new System.Drawing.Point(102, 53);
+            this.numalu.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
+            this.numalu.Location = new System.Drawing.Point(151, 133);
             this.numalu.MaxLength = 2;
             this.numalu.Multiline = true;
             this.numalu.Name = "numalu";
@@ -92,7 +96,8 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(435, 206);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(486, 313);
             this.Controls.Add(this.BtnHome);
             this.Controls.Add(this.BtnAtras);
             this.Controls.Add(this.Crear);

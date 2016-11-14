@@ -21,35 +21,52 @@
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="F:BilingualApp.Preguntas.components">
+        <member name="F:BilingualApp.PreguntasVERBTOBENvl2.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:BilingualApp.Preguntas.Dispose(System.Boolean)">
+        <member name="M:BilingualApp.PreguntasVERBTOBENvl2.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:BilingualApp.Preguntas.InitializeComponent">
+        <member name="M:BilingualApp.PreguntasVERBTOBENvl2.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="F:BilingualApp.Preguntas.components">
+        <member name="F:BilingualApp.PreguntasVERBTOBENvl3.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:BilingualApp.Preguntas.Dispose(System.Boolean)">
+        <member name="M:BilingualApp.PreguntasVERBTOBENvl3.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:BilingualApp.Preguntas.InitializeComponent">
+        <member name="M:BilingualApp.PreguntasVERBTOBENvl3.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:BilingualApp.PreguntasVERBTOBENvl1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BilingualApp.PreguntasVERBTOBENvl1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BilingualApp.PreguntasVERBTOBENvl1.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
@@ -159,6 +176,26 @@
             <summary>
               Overrides the current thread's CurrentUICulture property for all
               resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:BilingualApp.Properties.Resources.EnglishLogoOfficial">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BilingualApp.Properties.Resources.Home">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BilingualApp.Properties.Resources.imagesM3H78NUU">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:BilingualApp.Properties.Resources.imagesN54YEWH8">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
     </members>

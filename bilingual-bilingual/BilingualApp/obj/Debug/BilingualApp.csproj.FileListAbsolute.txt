@@ -23,7 +23,6 @@ C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Deb
 C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.RegAlumnos.resources
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.csprojResolveAssemblyReference.cache
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.Bilingual.resources
-C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.Preguntas.resources
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.RegAlumnos.resources
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.Salon.resources
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.Home.resources
@@ -34,3 +33,8 @@ C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Deb
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\BilingualApp.exe
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\BilingualApp.pdb
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\BilingualApp.XML
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.PreguntasVERBTOBENvl2.resources
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.PreguntasVERBTOBENvl1.resources
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.PreguntasVERBTOBENvl3.resources
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\MySql.Data.dll
+C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\MySql.Data.xml

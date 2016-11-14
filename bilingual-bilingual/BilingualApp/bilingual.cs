@@ -13,7 +13,7 @@ namespace BilingualApp
 {
     public partial class Bilingual : Form
     {
-        public string user, pass;
+  
 
         public Bilingual()
         {
@@ -37,7 +37,76 @@ namespace BilingualApp
             reg.Visible = true;
             Hide();
 
-            /*try
+           
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            home.Visible = true;
+            Close();
+        }
+
+        private void Bilingual_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtCorreo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtContrasena_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ConexionBD.Conexion();
+            MessageBox.Show("conectado a la base de datos");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+
+           
+          
+        }
+
+        private void BtnAtras_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            home.Visible = true;
+            Close();
+        }
+
+        private void BtnRegistrarse_Click(object sender, EventArgs e)
+        {
+
+            Registrar reg = new Registrar();
+            reg.Visible = true;
+            Close();
+        }
+
+        private void BtnIniciar_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
+
+ /* --ENVIAR REGISTRO--
+            Salon mat = new Salon();
+            mat.Visible = true;
+            Close();
+            */
+
+
+ /*  --REGISTRARSE---
+  try
             {
                 var sw = new StreamWriter("C:\\ " + textnom.Text + "\\regist.ID");
                 sw.Write(textnom.Text + "\n\n" + textpass.Text);
@@ -51,22 +120,12 @@ namespace BilingualApp
                 sw.Write(textnom.Text + "\n\n" + textpass.Text);
                 sw.Close();
             }*/
-        }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Home home = new Home();
-            home.Visible = true;
-            Close();
-        }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Salon mat = new Salon();
-            mat.Visible = true;
-            Close();
-            
-            /* try
+
+  /* --INICIAR SESION---
+   * 
+    try
             {
                 var sr = new StreamReader("C:\\ " + textnom.Text + "\\regist.ID");
                 user = sr.ReadLine();
@@ -83,6 +142,3 @@ namespace BilingualApp
                 MessageBox.Show("El usuario no existe", "ERROR");
             }
             */
-        }
-    }
-}

@@ -49,9 +49,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.label1.Location = new System.Drawing.Point(166, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(165, 13);
+            this.label1.Size = new System.Drawing.Size(223, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "Llene los campos de los alumnos:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -59,9 +60,10 @@
             // BtnAtras
             // 
             this.BtnAtras.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnAtras.Location = new System.Drawing.Point(105, 237);
+            this.BtnAtras.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
+            this.BtnAtras.Location = new System.Drawing.Point(58, 270);
             this.BtnAtras.Name = "BtnAtras";
-            this.BtnAtras.Size = new System.Drawing.Size(75, 23);
+            this.BtnAtras.Size = new System.Drawing.Size(115, 31);
             this.BtnAtras.TabIndex = 1;
             this.BtnAtras.Text = "Atras";
             this.BtnAtras.UseVisualStyleBackColor = true;
@@ -70,17 +72,19 @@
             // NumTotal
             // 
             this.NumTotal.AutoSize = true;
+            this.NumTotal.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.NumTotal.Location = new System.Drawing.Point(338, 41);
             this.NumTotal.Name = "NumTotal";
-            this.NumTotal.Size = new System.Drawing.Size(0, 13);
+            this.NumTotal.Size = new System.Drawing.Size(0, 21);
             this.NumTotal.TabIndex = 3;
             // 
             // Num
             // 
             this.Num.AutoSize = true;
-            this.Num.Location = new System.Drawing.Point(338, 41);
+            this.Num.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
+            this.Num.Location = new System.Drawing.Point(395, 41);
             this.Num.Name = "Num";
-            this.Num.Size = new System.Drawing.Size(13, 13);
+            this.Num.Size = new System.Drawing.Size(18, 21);
             this.Num.TabIndex = 4;
             this.Num.Text = "0";
             this.Num.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -89,9 +93,10 @@
             // BtnRegistrar
             // 
             this.BtnRegistrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnRegistrar.Location = new System.Drawing.Point(354, 237);
+            this.BtnRegistrar.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
+            this.BtnRegistrar.Location = new System.Drawing.Point(399, 270);
             this.BtnRegistrar.Name = "BtnRegistrar";
-            this.BtnRegistrar.Size = new System.Drawing.Size(75, 23);
+            this.BtnRegistrar.Size = new System.Drawing.Size(115, 31);
             this.BtnRegistrar.TabIndex = 5;
             this.BtnRegistrar.Text = "Registrar";
             this.BtnRegistrar.UseVisualStyleBackColor = true;
@@ -100,65 +105,73 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(105, 79);
+            this.label2.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(54, 111);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 13);
+            this.label2.Size = new System.Drawing.Size(68, 21);
             this.label2.TabIndex = 6;
             this.label2.Text = "No. Lista";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(105, 112);
+            this.label3.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(54, 148);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 13);
+            this.label3.Size = new System.Drawing.Size(64, 21);
             this.label3.TabIndex = 7;
             this.label3.Text = "Nombre";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(105, 136);
+            this.label4.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
+            this.label4.Location = new System.Drawing.Point(54, 182);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(84, 13);
+            this.label4.Size = new System.Drawing.Size(121, 21);
             this.label4.TabIndex = 8;
             this.label4.Text = "Apellido Paterno";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(105, 168);
+            this.label5.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
+            this.label5.Location = new System.Drawing.Point(54, 214);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 13);
+            this.label5.Size = new System.Drawing.Size(125, 21);
             this.label5.TabIndex = 9;
             this.label5.Text = "Apellido Materno";
             // 
             // TxtNumero
             // 
-            this.TxtNumero.Location = new System.Drawing.Point(269, 76);
+            this.TxtNumero.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
+            this.TxtNumero.Location = new System.Drawing.Point(269, 105);
             this.TxtNumero.Name = "TxtNumero";
-            this.TxtNumero.Size = new System.Drawing.Size(187, 20);
+            this.TxtNumero.Size = new System.Drawing.Size(187, 27);
             this.TxtNumero.TabIndex = 10;
             // 
             // TxtNombre
             // 
-            this.TxtNombre.Location = new System.Drawing.Point(269, 105);
+            this.TxtNombre.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
+            this.TxtNombre.Location = new System.Drawing.Point(269, 142);
             this.TxtNombre.Name = "TxtNombre";
-            this.TxtNombre.Size = new System.Drawing.Size(187, 20);
+            this.TxtNombre.Size = new System.Drawing.Size(187, 27);
             this.TxtNombre.TabIndex = 11;
             // 
             // TxtAP
             // 
-            this.TxtAP.Location = new System.Drawing.Point(269, 131);
+            this.TxtAP.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
+            this.TxtAP.Location = new System.Drawing.Point(269, 176);
             this.TxtAP.Name = "TxtAP";
-            this.TxtAP.Size = new System.Drawing.Size(187, 20);
+            this.TxtAP.Size = new System.Drawing.Size(187, 27);
             this.TxtAP.TabIndex = 12;
             // 
             // TxtAM
             // 
-            this.TxtAM.Location = new System.Drawing.Point(269, 161);
+            this.TxtAM.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
+            this.TxtAM.Location = new System.Drawing.Point(269, 208);
             this.TxtAM.Name = "TxtAM";
-            this.TxtAM.Size = new System.Drawing.Size(187, 20);
+            this.TxtAM.Size = new System.Drawing.Size(187, 27);
             this.TxtAM.TabIndex = 13;
             // 
             // BtnHome
@@ -167,7 +180,7 @@
             this.BtnHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.Image")));
             this.BtnHome.Location = new System.Drawing.Point(12, 10);
             this.BtnHome.Name = "BtnHome";
-            this.BtnHome.Size = new System.Drawing.Size(41, 55);
+            this.BtnHome.Size = new System.Drawing.Size(51, 63);
             this.BtnHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.BtnHome.TabIndex = 14;
             this.BtnHome.TabStop = false;
@@ -177,7 +190,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(554, 313);
             this.Controls.Add(this.TxtAM);
             this.Controls.Add(this.TxtAP);

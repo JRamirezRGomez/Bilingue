@@ -49,6 +49,7 @@
             this.Atras.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.Atras.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.Atras.Location = new System.Drawing.Point(111, 327);
             this.Atras.Name = "Atras";
             this.Atras.Size = new System.Drawing.Size(75, 23);
@@ -63,9 +64,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.VerboToBe.AutoSize = true;
+            this.VerboToBe.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.VerboToBe.Location = new System.Drawing.Point(135, 61);
             this.VerboToBe.Name = "VerboToBe";
-            this.VerboToBe.Size = new System.Drawing.Size(89, 17);
+            this.VerboToBe.Size = new System.Drawing.Size(118, 25);
             this.VerboToBe.TabIndex = 4;
             this.VerboToBe.Text = "Verbo TO-BE";
             this.VerboToBe.UseVisualStyleBackColor = true;
@@ -77,9 +79,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.DoWhile.AutoSize = true;
+            this.DoWhile.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.DoWhile.Location = new System.Drawing.Point(135, 156);
             this.DoWhile.Name = "DoWhile";
-            this.DoWhile.Size = new System.Drawing.Size(70, 17);
+            this.DoWhile.Size = new System.Drawing.Size(92, 25);
             this.DoWhile.TabIndex = 5;
             this.DoWhile.Text = "Do-While";
             this.DoWhile.UseVisualStyleBackColor = true;
@@ -91,9 +94,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Gramatica.AutoSize = true;
+            this.Gramatica.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.Gramatica.Location = new System.Drawing.Point(135, 246);
             this.Gramatica.Name = "Gramatica";
-            this.Gramatica.Size = new System.Drawing.Size(74, 17);
+            this.Gramatica.Size = new System.Drawing.Size(97, 25);
             this.Gramatica.TabIndex = 7;
             this.Gramatica.Text = "Gramatica";
             this.Gramatica.UseVisualStyleBackColor = true;
@@ -104,6 +108,7 @@
             this.Nivel1vtb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.Nivel1vtb.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.Nivel1vtb.Location = new System.Drawing.Point(257, 37);
             this.Nivel1vtb.Name = "Nivel1vtb";
             this.Nivel1vtb.Size = new System.Drawing.Size(75, 23);
@@ -117,6 +122,7 @@
             this.nivel2vtb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.nivel2vtb.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.nivel2vtb.Location = new System.Drawing.Point(257, 67);
             this.nivel2vtb.Name = "nivel2vtb";
             this.nivel2vtb.Size = new System.Drawing.Size(75, 23);
@@ -130,6 +136,7 @@
             this.Nivel3vtb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.Nivel3vtb.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.Nivel3vtb.Location = new System.Drawing.Point(257, 96);
             this.Nivel3vtb.Name = "Nivel3vtb";
             this.Nivel3vtb.Size = new System.Drawing.Size(75, 23);
@@ -143,6 +150,7 @@
             this.Nivel1dw.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.Nivel1dw.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.Nivel1dw.Location = new System.Drawing.Point(257, 137);
             this.Nivel1dw.Name = "Nivel1dw";
             this.Nivel1dw.Size = new System.Drawing.Size(75, 23);
@@ -156,6 +164,7 @@
             this.Nivel2dw.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.Nivel2dw.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.Nivel2dw.Location = new System.Drawing.Point(257, 166);
             this.Nivel2dw.Name = "Nivel2dw";
             this.Nivel2dw.Size = new System.Drawing.Size(75, 23);
@@ -169,6 +178,7 @@
             this.Nivel3dw.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.Nivel3dw.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.Nivel3dw.Location = new System.Drawing.Point(257, 195);
             this.Nivel3dw.Name = "Nivel3dw";
             this.Nivel3dw.Size = new System.Drawing.Size(75, 23);
@@ -182,6 +192,7 @@
             this.grama.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.grama.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.grama.Location = new System.Drawing.Point(257, 246);
             this.grama.Name = "grama";
             this.grama.Size = new System.Drawing.Size(75, 23);

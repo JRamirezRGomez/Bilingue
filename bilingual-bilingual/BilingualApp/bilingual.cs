@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
+
 
 namespace BilingualApp
 {
@@ -93,6 +95,7 @@ namespace BilingualApp
 
         private void BtnIniciar_Click(object sender, EventArgs e)
         {
+            ConexionBD.Conexion();
 
         }
     }

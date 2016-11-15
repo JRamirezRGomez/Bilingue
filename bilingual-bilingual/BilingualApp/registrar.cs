@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using System.Text.RegularExpressions;
 
 namespace BilingualApp
 {
@@ -90,6 +91,32 @@ namespace BilingualApp
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void BtnRegistrar_Click(object sender, EventArgs e)
+        {
+            ConexionBD.Conexion();
+
+
+            //boton registrar
+            // validar correo
+
+            string Correo = TxtCorreo.Text;
+            Regex emailregex = new Regex("(?<user>[^@]+)@(?<host>.+)");
+            Match m = emailregex.Match(Correo);
+           
+            if (textBox2.Text == textBox3.Text)
+            {
+                MessageBox.Show("Registro correcto");
+            }
+            else
+            {
+                MessageBox.Show("las contraseñas no coinciden");
+            }
+            if (textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "" || textBox5.Text == "" || textBox1.Text == "" || comboBox1.Text == "")
+            {
+                MessageBox.Show("Debes de llenar todos los campos");
+            }
         }
     }
 }

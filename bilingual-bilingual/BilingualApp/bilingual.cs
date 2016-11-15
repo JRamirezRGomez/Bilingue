@@ -9,13 +9,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using System.Text.RegularExpressions;
 
 
 namespace BilingualApp
 {
     public partial class Bilingual : Form
     {
-  
+        
 
         public Bilingual()
         {
@@ -33,22 +34,7 @@ namespace BilingualApp
         }
 
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Registrar reg = new Registrar();
-            reg.Visible = true;
-            Hide();
-
-           
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Home home = new Home();
-            home.Visible = true;
-            Close();
-        }
-
+   
         private void Bilingual_Load(object sender, EventArgs e)
         {
 
@@ -64,19 +50,7 @@ namespace BilingualApp
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            ConexionBD.Conexion();
-            MessageBox.Show("conectado a la base de datos");
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-
-           
-          
-        }
+  
 
         private void BtnAtras_Click(object sender, EventArgs e)
         {
@@ -96,6 +70,7 @@ namespace BilingualApp
         private void BtnIniciar_Click(object sender, EventArgs e)
         {
             ConexionBD.Conexion();
+
 
         }
     }

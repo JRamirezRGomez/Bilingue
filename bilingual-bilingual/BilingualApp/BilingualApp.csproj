@@ -55,7 +55,7 @@
     <Compile Include="Bilingual.Designer.cs">
       <DependentUpon>Bilingual.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConexionBD.cs" />
+    <Compile Include="Conexion\ConexionBD.cs" />
     <Compile Include="PreguntasVERBTOBENvl2.cs">
       <SubType>Form</SubType>
     </Compile>

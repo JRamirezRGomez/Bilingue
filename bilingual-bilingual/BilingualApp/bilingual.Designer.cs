@@ -33,7 +33,6 @@
             this.TxtContrasena = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.BtnAtras = new System.Windows.Forms.Button();
             this.BtnRegistrarse = new System.Windows.Forms.Button();
             this.BtnIniciar = new System.Windows.Forms.Button();
@@ -78,16 +77,6 @@
             this.label1.Size = new System.Drawing.Size(134, 21);
             this.label1.TabIndex = 7;
             this.label1.Text = "Correo Electronico";
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(297, 192);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // BtnAtras
             // 
@@ -134,7 +123,6 @@
             this.Controls.Add(this.BtnIniciar);
             this.Controls.Add(this.BtnRegistrarse);
             this.Controls.Add(this.BtnAtras);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.TxtContrasena);
@@ -154,7 +142,6 @@
         private System.Windows.Forms.TextBox TxtContrasena;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button BtnAtras;
         private System.Windows.Forms.Button BtnRegistrarse;
         private System.Windows.Forms.Button BtnIniciar;

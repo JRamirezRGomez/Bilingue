@@ -109,6 +109,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PreguntasVERBTOBENvl1";
             this.Text = "Preguntas";
+            this.Load += new System.EventHandler(this.PreguntasVERBTOBENvl1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

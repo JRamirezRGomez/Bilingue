@@ -69,7 +69,11 @@ namespace BilingualApp
 
         private void BtnIniciar_Click(object sender, EventArgs e)
         {
+
+
             ConexionBD.Conexion();
+
+
 
 
         }

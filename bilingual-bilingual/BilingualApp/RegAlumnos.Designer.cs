@@ -149,6 +149,7 @@
             this.TxtNumero.Name = "TxtNumero";
             this.TxtNumero.Size = new System.Drawing.Size(187, 27);
             this.TxtNumero.TabIndex = 10;
+            this.TxtNumero.TextChanged += new System.EventHandler(this.TxtNumero_TextChanged);
             // 
             // TxtNombre
             // 
@@ -157,6 +158,7 @@
             this.TxtNombre.Name = "TxtNombre";
             this.TxtNombre.Size = new System.Drawing.Size(187, 27);
             this.TxtNombre.TabIndex = 11;
+            this.TxtNombre.TextChanged += new System.EventHandler(this.TxtNombre_TextChanged);
             // 
             // TxtAP
             // 
@@ -165,6 +167,7 @@
             this.TxtAP.Name = "TxtAP";
             this.TxtAP.Size = new System.Drawing.Size(187, 27);
             this.TxtAP.TabIndex = 12;
+            this.TxtAP.TextChanged += new System.EventHandler(this.TxtAP_TextChanged);
             // 
             // TxtAM
             // 
@@ -173,6 +176,7 @@
             this.TxtAM.Name = "TxtAM";
             this.TxtAM.Size = new System.Drawing.Size(187, 27);
             this.TxtAM.TabIndex = 13;
+            this.TxtAM.TextChanged += new System.EventHandler(this.TxtAM_TextChanged);
             // 
             // BtnHome
             // 

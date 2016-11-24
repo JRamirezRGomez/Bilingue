@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Text.RegularExpressions;
 
+
 namespace BilingualApp
 {
     public partial class Registrar : Form

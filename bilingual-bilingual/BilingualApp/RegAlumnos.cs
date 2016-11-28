@@ -44,13 +44,11 @@ namespace BilingualApp
 
         private void BtnRegistrar_Click(object sender, EventArgs e)
         {
-
-
             try
             {
                 string Conectar = ("server=localhost; database=Bilingual; Uid=root; pwd=");
 
-                string Query ="INSERT INTO alumnos(ID_Alumno,Nombre,Apellido_P,Apellido_M) values('"+this.TxtNumero.Text+"','"+this.TxtNombre.Text+"','"+this.TxtAP.Text+"','"+this.TxtAM.Text+"');";
+                string Query = "INSERT INTO alumnos(ID_Alumno,Nombre,Apellido_P,Apellido_M) values('" + this.TxtNumero.Text + "','" + this.TxtNombre.Text + "','" + this.TxtAP.Text + "','" + this.TxtAM.Text + "');";
 
                 MySqlConnection ConexionAlumnos = new MySqlConnection(Conectar);
 
@@ -60,7 +58,7 @@ namespace BilingualApp
 
                 ConexionAlumnos.Open();
 
-                LeerDatos = ConexionAlumnos.ExecuteReader();
+                LeerDatos = Conexion.ExecuteReader();
             }
 
             catch
@@ -68,8 +66,6 @@ namespace BilingualApp
 
 
             }
-
-
         }
 
         private void BtnHome_Click(object sender, EventArgs e)
@@ -78,27 +74,7 @@ namespace BilingualApp
             c.Visible = true;
             Close();
 
-            //Este boton regresa al Home
-        }
-
-        private void TxtNumero_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TxtNombre_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TxtAP_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TxtAM_TextChanged(object sender, EventArgs e)
-        {
-
+            //Este boton regresa al Home.
         }
     }
 }

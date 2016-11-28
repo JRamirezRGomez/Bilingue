@@ -124,7 +124,7 @@ namespace BilingualApp
                 ConexionRegistrar.Open();
 
 
-                LeerDatos = ConexionRegistrar.ExecuteReader();
+                LeerDatos = Conexion.ExecuteReader();
 
 
                 //boton registrar

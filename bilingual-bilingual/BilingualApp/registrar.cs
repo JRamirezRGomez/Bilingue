@@ -8,8 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
+using System.Data.SqlClient;
 using System.Text.RegularExpressions;
+
 
 namespace BilingualApp
 {
@@ -95,28 +96,69 @@ namespace BilingualApp
 
         private void BtnRegistrar_Click(object sender, EventArgs e)
         {
-            ConexionBD.Conexion();
 
 
-            //boton registrar
-            // validar correo
+            try
 
-            string Correo = TxtCorreo.Text;
-            Regex emailregex = new Regex("(?<user>[^@]+)@(?<host>.+)");
-            Match m = emailregex.Match(Correo);
-           
-            if (textBox2.Text == textBox3.Text)
             {
-                MessageBox.Show("Registro correcto");
+                //Se establece la conexion con el metodo de ConexionBD
+
+                string Conectar = ("server=localhost; database=Bilingual; Uid=root; pwd=");
+
+                //Se insertan los valores dentro de la tabla docentes
+                string Query = "INSERT INTO docentes (Nombre,Appelido_P,Apellido_M,Contrasena,Correo_Electronico) values('" + this.TxtNombre.Text + "','" + this.TxtAP.Text + "','" + this.TxtAM.Text + "','" + this.TxtContrasena.Text + "','" + this.TxtCorreo.Text + "');";
+
+                /*Llamaremos una nueva variable
+                   para que despues va a ser nuestra conexion
+                   */
+
+                MySqlConnection ConexionRegistrar = new MySqlConnection(Conectar);
+
+                //Se conectan con la clase donde se hace la conexion,
+                MySqlCommand Conexion = new MySqlCommand(Query, ConexionRegistrar);
+
+
+                MySqlDataReader LeerDatos;
+
+
+                ConexionRegistrar.Open();
+
+
+                LeerDatos = Conexion.ExecuteReader();
+
+
+                //boton registrar
+                // validar correo
+
+                //Botones para validar si el correo introducido es el correcto o no
+
+
+                /*
+                string Correo = TxtCorreo.Text;
+                Regex emailregex = new Regex("(?<user>[^@]+)@(?<host>.+)");
+                Match m = emailregex.Match(Correo);
+
+                if (textBox2.Text == textBox3.Text)
+                {
+                    MessageBox.Show("Registro correcto");
+                }
+                else
+                {
+                    MessageBox.Show("las contraseñas no coinciden");
+                }
+                if (textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "" || textBox5.Text == "" || textBox1.Text == "" || comboBox1.Text == "")
+                {
+                    MessageBox.Show("Debes de llenar todos los campos");
+                }
+                */
             }
-            else
+            catch
             {
-                MessageBox.Show("las contraseñas no coinciden");
+
+
             }
-            if (textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "" || textBox5.Text == "" || textBox1.Text == "" || comboBox1.Text == "")
-            {
-                MessageBox.Show("Debes de llenar todos los campos");
-            }
+
+           }
         }
     }
-}
+

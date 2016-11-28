@@ -18,9 +18,9 @@ namespace BilingualApp
 
             Conectar.Open();
             return Conectar;
+    }
+}
 
 
         }
 
-    }
-}

@@ -38,3 +38,8 @@ C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Deb
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.PreguntasVERBTOBENvl3.resources
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\MySql.Data.dll
 C:\Users\Raul\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\MySql.Data.xml
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.PreguntasVERBTOBENvl2.resources
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.PreguntasVERBTOBENvl1.resources
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.PreguntasVERBTOBENvl3.resources
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\MySql.Data.dll
+C:\Users\JAIME\Documents\GitHub\Bilingue\bilingual-bilingual\BilingualApp\MySql.Data.xml

@@ -35,8 +35,10 @@ namespace BilingualApp
             int al = rdn.Next(0, preguntas.Length);
             richTextBox1.Text = preguntas[al];
         }
-        
 
+        private void PreguntasVERBTOBENvl1_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }

@@ -53,7 +53,7 @@ namespace BilingualApp
             c.Visible = true;
             Close();
 
-            //Este boton regresa al Home
+            //Este boton regresa al Home.
         }
     }
 }

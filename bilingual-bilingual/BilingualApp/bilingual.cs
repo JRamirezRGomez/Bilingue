@@ -70,9 +70,21 @@ namespace BilingualApp
         private void BtnIniciar_Click(object sender, EventArgs e)
         {
 
+            try
+            {
 
-            ConexionBD.Conexion();
+                string Conectar = ("server=localhost; database=Bilingual; Uid=root; pwd=");
 
+                string Query = "SELECT * FROM docentes (Correo_Electronico, Contrasena) values('" + this.TxtCorreo.Text + "' , '" + this.TxtContrasena.Text + "'); ";
+                
+
+
+            }
+
+            catch
+            {
+
+            }
 
 
 

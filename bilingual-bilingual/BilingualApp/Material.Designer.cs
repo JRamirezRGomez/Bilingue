@@ -52,7 +52,7 @@
             this.Atras.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.Atras.Location = new System.Drawing.Point(111, 327);
             this.Atras.Name = "Atras";
-            this.Atras.Size = new System.Drawing.Size(75, 36);
+            this.Atras.Size = new System.Drawing.Size(87, 36);
             this.Atras.TabIndex = 3;
             this.Atras.Text = "Atras";
             this.Atras.UseVisualStyleBackColor = true;
@@ -111,7 +111,7 @@
             this.Nivel1vtb.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.Nivel1vtb.Location = new System.Drawing.Point(257, 12);
             this.Nivel1vtb.Name = "Nivel1vtb";
-            this.Nivel1vtb.Size = new System.Drawing.Size(75, 32);
+            this.Nivel1vtb.Size = new System.Drawing.Size(87, 32);
             this.Nivel1vtb.TabIndex = 8;
             this.Nivel1vtb.Text = "Nivel 1";
             this.Nivel1vtb.UseVisualStyleBackColor = true;
@@ -125,7 +125,7 @@
             this.nivel2vtb.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.nivel2vtb.Location = new System.Drawing.Point(257, 50);
             this.nivel2vtb.Name = "nivel2vtb";
-            this.nivel2vtb.Size = new System.Drawing.Size(75, 33);
+            this.nivel2vtb.Size = new System.Drawing.Size(87, 33);
             this.nivel2vtb.TabIndex = 9;
             this.nivel2vtb.Text = "Nivel 2";
             this.nivel2vtb.UseVisualStyleBackColor = true;
@@ -139,7 +139,7 @@
             this.Nivel3vtb.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.Nivel3vtb.Location = new System.Drawing.Point(257, 89);
             this.Nivel3vtb.Name = "Nivel3vtb";
-            this.Nivel3vtb.Size = new System.Drawing.Size(75, 35);
+            this.Nivel3vtb.Size = new System.Drawing.Size(87, 35);
             this.Nivel3vtb.TabIndex = 10;
             this.Nivel3vtb.Text = "Nivel 3";
             this.Nivel3vtb.UseVisualStyleBackColor = true;
@@ -153,7 +153,7 @@
             this.Nivel1dw.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.Nivel1dw.Location = new System.Drawing.Point(257, 136);
             this.Nivel1dw.Name = "Nivel1dw";
-            this.Nivel1dw.Size = new System.Drawing.Size(75, 37);
+            this.Nivel1dw.Size = new System.Drawing.Size(87, 37);
             this.Nivel1dw.TabIndex = 11;
             this.Nivel1dw.Text = "Nivel 1";
             this.Nivel1dw.UseVisualStyleBackColor = true;
@@ -167,7 +167,7 @@
             this.Nivel2dw.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.Nivel2dw.Location = new System.Drawing.Point(257, 179);
             this.Nivel2dw.Name = "Nivel2dw";
-            this.Nivel2dw.Size = new System.Drawing.Size(75, 33);
+            this.Nivel2dw.Size = new System.Drawing.Size(87, 33);
             this.Nivel2dw.TabIndex = 12;
             this.Nivel2dw.Text = "Nivel 2";
             this.Nivel2dw.UseVisualStyleBackColor = true;
@@ -181,7 +181,7 @@
             this.Nivel3dw.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.Nivel3dw.Location = new System.Drawing.Point(257, 218);
             this.Nivel3dw.Name = "Nivel3dw";
-            this.Nivel3dw.Size = new System.Drawing.Size(75, 35);
+            this.Nivel3dw.Size = new System.Drawing.Size(87, 35);
             this.Nivel3dw.TabIndex = 13;
             this.Nivel3dw.Text = "Nivel 3";
             this.Nivel3dw.UseVisualStyleBackColor = true;
@@ -195,7 +195,7 @@
             this.grama.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
             this.grama.Location = new System.Drawing.Point(257, 270);
             this.grama.Name = "grama";
-            this.grama.Size = new System.Drawing.Size(75, 34);
+            this.grama.Size = new System.Drawing.Size(87, 34);
             this.grama.TabIndex = 14;
             this.grama.Text = "Nivel 1";
             this.grama.UseVisualStyleBackColor = true;
@@ -217,7 +217,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(691, 401);
+            this.ClientSize = new System.Drawing.Size(703, 401);
             this.Controls.Add(this.BtnHome);
             this.Controls.Add(this.grama);
             this.Controls.Add(this.Nivel3dw);

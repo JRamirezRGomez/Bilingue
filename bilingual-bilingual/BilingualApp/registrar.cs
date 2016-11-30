@@ -98,65 +98,34 @@ namespace BilingualApp
         {
 
 
+
+            //Se establece la conexion con el metodo de ConexionBD
+
+            string Conectar = ("server=localhost; database=bilingual; Uid=root; pwd=");
+            /*Llamaremos una nueva variable
+            para que despues va a ser nuestra conexion*/
+            MySqlConnection ConexionRegistrar = new MySqlConnection(Conectar);
+
             try
-
             {
-                //Se establece la conexion con el metodo de ConexionBD
-
-                string Conectar = ("server=localhost; database=Bilingual; Uid=root; pwd=");
-
-                //Se insertan los valores dentro de la tabla docentes
-                string Query = "INSERT INTO docentes (Nombre,Appelido_P,Apellido_M,Contrasena,Correo_Electronico) values('" + this.TxtNombre.Text + "','" + this.TxtAP.Text + "','" + this.TxtAM.Text + "','" + this.TxtContrasena.Text + "','" + this.TxtCorreo.Text + "');";
-
-                /*Llamaremos una nueva variable
-                   para que despues va a ser nuestra conexion
-                   */
-
-                MySqlConnection ConexionRegistrar = new MySqlConnection(Conectar);
-
-                //Se conectan con la clase donde se hace la conexion,
-                MySqlCommand Conexion = new MySqlCommand(Query, ConexionRegistrar);
-
-
-                MySqlDataReader LeerDatos;
-
-
+                //abrimos on
+                MessageBox.Show("Connecting to MySQL...");
                 ConexionRegistrar.Open();
 
-
+                //Se insertan los valores dentro de la tabla docentes
+                string Query = "insert into bilingual.docentes (Nombre,Appelido_P,Apellido_M,Contrasena,Correo_Electronico) values('" + this.TxtNombre.Text + "','" + this.TxtAP.Text + "','" + this.TxtAM.Text + "','" + this.TxtContrasena.Text + "','" + this.TxtCorreo.Text + "');";
+                //Se conectan con la clase donde se hace la conexion,
+                MySqlCommand Conexion = new MySqlCommand(Query, ConexionRegistrar);
+                MySqlDataReader LeerDatos;
                 LeerDatos = Conexion.ExecuteReader();
-
-
-                //boton registrar
-                // validar correo
-
-                //Botones para validar si el correo introducido es el correcto o no
-
-
-                /*
-                string Correo = TxtCorreo.Text;
-                Regex emailregex = new Regex("(?<user>[^@]+)@(?<host>.+)");
-                Match m = emailregex.Match(Correo);
-
-                if (textBox2.Text == textBox3.Text)
-                {
-                    MessageBox.Show("Registro correcto");
-                }
-                else
-                {
-                    MessageBox.Show("las contraseñas no coinciden");
-                }
-                if (textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "" || textBox5.Text == "" || textBox1.Text == "" || comboBox1.Text == "")
-                {
-                    MessageBox.Show("Debes de llenar todos los campos");
-                }
-                */
             }
-            catch
+
+            catch(Exception ex)
             {
-
-
+                MessageBox.Show(ex.ToString());
             }
+            //ceramos coneccion 
+            ConexionRegistrar.Close();
 
            }
         }

@@ -38,34 +38,30 @@ namespace BilingualApp
             Salon b = new Salon();
             b.Visible = true;
             Close();
-
             //Regresa a Salon
         }
 
         private void BtnRegistrar_Click(object sender, EventArgs e)
         {
+            string Conectar = ("server=localhost; database=bilingual; Uid=root; pwd=");
+            MySqlConnection ConexionAlumnos = new MySqlConnection(Conectar);
+
             try
             {
-                string Conectar = ("server=localhost; database=Bilingual; Uid=root; pwd=");
-
-                string Query = "INSERT INTO alumnos(ID_Alumno,Nombre,Apellido_P,Apellido_M) values('" + this.TxtNumero.Text + "','" + this.TxtNombre.Text + "','" + this.TxtAP.Text + "','" + this.TxtAM.Text + "');";
-
-                MySqlConnection ConexionAlumnos = new MySqlConnection(Conectar);
-
-                MySqlCommand Conexion = new MySqlCommand(Query, ConexionAlumnos);
-
-                MySqlDataReader LeerDatos;
-
+                MessageBox.Show("Connecting to MySQL...");
                 ConexionAlumnos.Open();
 
+                string Query = "insert into bilingual.alumnos(ID_Alumno,Nombre,Apellido_P,Apellido_M) values('" + this.TxtNumero.Text + "','" + this.TxtNombre.Text + "','" + this.TxtAP.Text + "','" + this.TxtAM.Text + "');";
+                MySqlCommand Conexion = new MySqlCommand(Query, ConexionAlumnos);
+                MySqlDataReader LeerDatos;
                 LeerDatos = Conexion.ExecuteReader();
             }
 
-            catch
+            catch(Exception ex)
             {
-
-
+                MessageBox.Show(ex.ToString());
             }
+            ConexionAlumnos.Close();
         }
 
         private void BtnHome_Click(object sender, EventArgs e)

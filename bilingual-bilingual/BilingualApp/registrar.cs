@@ -16,11 +16,22 @@ namespace BilingualApp
 {
     public partial class Registrar : Form
     {
+        private MySqlConnection coneccion;
+        private string server;
+        private string database;
+        private string uid;
+        private string password;
+
         public Registrar()
         {
             InitializeComponent();
-
-        
+            server = "localhost";
+            database = "bilingual";
+            uid = "root";
+            password = "";
+            string con;
+            con = $"SERVER ={server};DATABASE={database};UID={uid};PASSWORD={password};";
+            coneccion = new MySqlConnection(con);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -40,7 +51,6 @@ namespace BilingualApp
 
         }
 
-
         private void registrar_Load(object sender, EventArgs e)
         {
 
@@ -51,7 +61,6 @@ namespace BilingualApp
             Home c = new Home();
             c.Visible = true;
             Close();
-
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -96,38 +105,81 @@ namespace BilingualApp
 
         private void BtnRegistrar_Click(object sender, EventArgs e)
         {
+            //enviamos parametros a clase registrar 
+            string nombre = TxtNombre.Text;
+            string ap = TxtAP.Text;
+            string am = TxtAM.Text;
+            string pass = TxtContrasena.Text;
+            string correo = TxtCorreo.Text;
 
-
-
-            //Se establece la conexion con el metodo de ConexionBD
-
-            string Conectar = ("server=localhost; database=bilingual; Uid=root; pwd=");
-            /*Llamaremos una nueva variable
-            para que despues va a ser nuestra conexion*/
-            MySqlConnection ConexionRegistrar = new MySqlConnection(Conectar);
-
+            if(Registar(nombre, ap, am, pass, correo))
+            {
+                MessageBox.Show($"Usuario {nombre} ah sido creado");
+                Bilingual b = new Bilingual();
+                b.Visible = true;
+                Close();
+            }
+            else
+            {
+                MessageBox.Show($"Usuario {nombre} no fue creado");
+            }
+        }
+        
+        public bool Registar(string nombre, string ap, string am, string pass, string correo )
+        {
+            string query = $"insert into bilingual.docentes (ID_Docente, Nombre, Apellido_P, Apellido_M, Contrasena, Correo_Eletronico) values ('', '{nombre}', '{ap}', '{am}', '{pass}', '{correo}');";
             try
             {
-                //abrimos on
-                MessageBox.Show("Connecting to MySQL...");
-                ConexionRegistrar.Open();
-
-                //Se insertan los valores dentro de la tabla docentes
-                string Query = "insert into bilingual.docentes (Nombre,Appelido_P,Apellido_M,Contrasena,Correo_Electronico) values('" + this.TxtNombre.Text + "','" + this.TxtAP.Text + "','" + this.TxtAM.Text + "','" + this.TxtContrasena.Text + "','" + this.TxtCorreo.Text + "');";
-                //Se conectan con la clase donde se hace la conexion,
-                MySqlCommand Conexion = new MySqlCommand(Query, ConexionRegistrar);
-                MySqlDataReader LeerDatos;
-                LeerDatos = Conexion.ExecuteReader();
-            }
-
-            catch(Exception ex)
+                if(openconn())
+                {
+                    MySqlCommand cmd = new MySqlCommand(query, coneccion);
+                    try
+                    {
+                        cmd.ExecuteNonQuery();
+                        return true;
+                    }
+                    catch(Exception ex)
+                    {
+                        MessageBox.Show(ex.ToString());
+                        return false;
+                    }
+                }
+                else
+                {
+                    coneccion.Close();
+                    return false;
+                }
+            }catch(Exception ex)
             {
+                coneccion.Close();
                 MessageBox.Show(ex.ToString());
+                return false;
             }
-            //ceramos coneccion 
-            ConexionRegistrar.Close();
-
-           }
         }
+
+        private bool openconn()
+        {
+            try
+            {
+                coneccion.Open();
+                return true;
+            }
+            catch (MySqlException ex)
+            {
+                switch (ex.Number)
+                {
+                    case 0:
+                        MessageBox.Show("Coneccion a servidor fallo");
+                        break;
+                    case 1045:
+                        MessageBox.Show("Correo Electronico o Contraseña incorrecta");
+                        break;
+                }
+                MessageBox.Show(ex.ToString());
+                return false;
+            }
+        }
+
     }
+}
 

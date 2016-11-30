@@ -16,11 +16,23 @@ namespace BilingualApp
 {
     public partial class Bilingual : Form
     {
-        
+        private MySqlConnection coneccion;
+        private string server;
+        private string database;
+        private string uid;
+        private string password;
 
         public Bilingual()
+
         {
             InitializeComponent();
+            server = "localhost";
+            database = "bilingual";
+            uid = "root";
+            password="";
+            string con;
+            con = $"SERVER ={server};DATABASE={database};UID={uid};PASSWORD={password};";
+            coneccion = new MySqlConnection(con); 
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -33,8 +45,6 @@ namespace BilingualApp
 
         }
 
-
-   
         private void Bilingual_Load(object sender, EventArgs e)
         {
 
@@ -49,8 +59,6 @@ namespace BilingualApp
         {
 
         }
-
-  
 
         private void BtnAtras_Click(object sender, EventArgs e)
         {
@@ -69,70 +77,80 @@ namespace BilingualApp
 
         private void BtnIniciar_Click(object sender, EventArgs e)
         {
+            string correo = TxtCorreo.Text;
+            string pass = TxtContrasena.Text;
 
+            if(login (correo,pass))
+            {
+                RegAlumnos ralu = new RegAlumnos();
+                ralu.Visible = true;
+                Close();
+            }
+            else
+            {
+                MessageBox.Show("Usuario no existe!!");
+            }
+        }
+
+        private bool openconn()
+        {
             try
             {
-
-                string Conectar = ("server=localhost; database=Bilingual; Uid=root; pwd=");
-
-                string Query = "SELECT * FROM docentes (Correo_Electronico, Contrasena) values('" + this.TxtCorreo.Text + "' , '" + this.TxtContrasena.Text + "'); ";
-                
-
-
+                coneccion.Open();
+                return true;
             }
-
-            catch
+            catch(MySqlException ex)
             {
-
+                switch(ex.Number)
+                {
+                    case 0:
+                        MessageBox.Show("Coneccion a servidor fallo");
+                        break;
+                    case 1045:
+                        MessageBox.Show("Correo Electronico o Contraseña incorrecta");
+                        break;
+                }
+                MessageBox.Show(ex.ToString());
+                return false;
             }
+        }
 
-
-
+        private bool login(string TxtCorreo, string TxtContrasena)
+        {
+            //hacemos comparacion 
+            string Query = $"select * from docentes where Correo_Eletronico= '{this.TxtCorreo.Text}' and Contrasena= '{this.TxtContrasena.Text}';";
+            try
+            {
+                if(openconn())
+                {
+                    MySqlCommand Conexion = new MySqlCommand(Query, coneccion);
+                    MySqlDataReader LeerDatos;
+                    LeerDatos = Conexion.ExecuteReader();
+                    if (LeerDatos.Read())
+                    {
+                        LeerDatos.Close();
+                        coneccion.Close();
+                        return true;
+                    }
+                    else
+                    {
+                        LeerDatos.Close();
+                        coneccion.Close();
+                        return false;
+                    }
+                }
+                else
+                {
+                    coneccion.Close();
+                    return false;
+                }
+            }
+            catch(Exception ex)
+            {
+                coneccion.Close();
+                MessageBox.Show(ex.ToString());
+                return false;
+            }
         }
     }
 }
-
- /* --ENVIAR REGISTRO--
-            Salon mat = new Salon();
-            mat.Visible = true;
-            Close();
-            */
-
-
- /*  --REGISTRARSE---
-  try
-            {
-                var sw = new StreamWriter("C:\\ " + textnom.Text + "\\regist.ID");
-                sw.Write(textnom.Text + "\n\n" + textpass.Text);
-                sw.Close();
-                 
-            }
-            catch (DirectoryNotFoundException ex)
-            {
-                Directory.CreateDirectory("C:\\ " + textnom.Text);
-                var sw = new StreamWriter("C:\\ " + textnom.Text + "\\regist.ID");
-                sw.Write(textnom.Text + "\n\n" + textpass.Text);
-                sw.Close();
-            }*/
-
-
-
-  /* --INICIAR SESION---
-   * 
-    try
-            {
-                var sr = new StreamReader("C:\\ " + textnom.Text + "\\regist.ID");
-                user = sr.ReadLine();
-                pass = sr.ReadLine();
-                sr.Close();
-
-                if (user == textnom.Text && pass == textpass.Text)
-                    MessageBox.Show("haz iniciado sesion", "Iniciado");
-                else
-                    MessageBox.Show("Nombre o Contraseña es incorrecta", "ERROR");
-            }
-            catch(DirectoryNotFoundException ex)
-            {
-                MessageBox.Show("El usuario no existe", "ERROR");
-            }
-            */

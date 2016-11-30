@@ -20,8 +20,8 @@ namespace BilingualApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Salon vrb = new Salon();
-            vrb.Visible = true;
+            RegAlumnos ralu = new RegAlumnos();
+            ralu.Visible = true;
             Close();
         }
 

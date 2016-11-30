@@ -32,7 +32,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.BtnAtras = new System.Windows.Forms.Button();
             this.NumTotal = new System.Windows.Forms.Label();
-            this.Num = new System.Windows.Forms.Label();
             this.BtnRegistrar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -43,6 +42,8 @@
             this.TxtAP = new System.Windows.Forms.TextBox();
             this.TxtAM = new System.Windows.Forms.TextBox();
             this.BtnHome = new System.Windows.Forms.PictureBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.Aceptar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.BtnHome)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,23 +79,11 @@
             this.NumTotal.Size = new System.Drawing.Size(0, 21);
             this.NumTotal.TabIndex = 3;
             // 
-            // Num
-            // 
-            this.Num.AutoSize = true;
-            this.Num.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
-            this.Num.Location = new System.Drawing.Point(395, 41);
-            this.Num.Name = "Num";
-            this.Num.Size = new System.Drawing.Size(18, 21);
-            this.Num.TabIndex = 4;
-            this.Num.Text = "0";
-            this.Num.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.Num.Click += new System.EventHandler(this.Num_Click);
-            // 
             // BtnRegistrar
             // 
             this.BtnRegistrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRegistrar.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
-            this.BtnRegistrar.Location = new System.Drawing.Point(399, 270);
+            this.BtnRegistrar.Location = new System.Drawing.Point(242, 270);
             this.BtnRegistrar.Name = "BtnRegistrar";
             this.BtnRegistrar.Size = new System.Drawing.Size(115, 31);
             this.BtnRegistrar.TabIndex = 5;
@@ -186,12 +175,35 @@
             this.BtnHome.TabStop = false;
             this.BtnHome.Click += new System.EventHandler(this.BtnHome_Click);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(421, 248);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(61, 17);
+            this.checkBox1.TabIndex = 15;
+            this.checkBox1.Text = "Finalizo";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // Aceptar
+            // 
+            this.Aceptar.Location = new System.Drawing.Point(421, 271);
+            this.Aceptar.Name = "Aceptar";
+            this.Aceptar.Size = new System.Drawing.Size(115, 31);
+            this.Aceptar.TabIndex = 16;
+            this.Aceptar.Text = "Aceptar";
+            this.Aceptar.UseVisualStyleBackColor = true;
+            this.Aceptar.Click += new System.EventHandler(this.Aceptar_Click);
+            // 
             // RegAlumnos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(554, 313);
+            this.Controls.Add(this.Aceptar);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.TxtAM);
             this.Controls.Add(this.TxtAP);
             this.Controls.Add(this.TxtNombre);
@@ -201,7 +213,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.BtnRegistrar);
-            this.Controls.Add(this.Num);
             this.Controls.Add(this.NumTotal);
             this.Controls.Add(this.BtnAtras);
             this.Controls.Add(this.label1);
@@ -221,7 +232,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BtnAtras;
         private System.Windows.Forms.Label NumTotal;
-        private System.Windows.Forms.Label Num;
         private System.Windows.Forms.Button BtnRegistrar;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -232,5 +242,7 @@
         private System.Windows.Forms.TextBox TxtAP;
         private System.Windows.Forms.TextBox TxtAM;
         private System.Windows.Forms.PictureBox BtnHome;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button Aceptar;
     }
 }

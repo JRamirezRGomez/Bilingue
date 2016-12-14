@@ -127,7 +127,7 @@ namespace BilingualApp
         
         public bool Registar(string nombre, string ap, string am, string pass, string correo )
         {
-            string query = $"insert into bilingual.docentes (ID_Docente, Nombre, Apellido_P, Apellido_M, Contrasena, Correo_Eletronico) values ('', '{nombre}', '{ap}', '{am}', '{pass}', '{correo}');";
+            string query = $"insert into bilingual.docentes (ID_Docentes, Nombre, Apellido_P, Apellido_M, Contrasena, Correo_Eletronico) values ('', '{nombre}', '{ap}', '{am}', '{pass}', '{correo}');";
             try
             {
                 if(openconn())

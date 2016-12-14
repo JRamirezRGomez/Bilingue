@@ -188,6 +188,7 @@
             // 
             // Aceptar
             // 
+            this.Aceptar.Enabled = false;
             this.Aceptar.Location = new System.Drawing.Point(421, 271);
             this.Aceptar.Name = "Aceptar";
             this.Aceptar.Size = new System.Drawing.Size(115, 31);

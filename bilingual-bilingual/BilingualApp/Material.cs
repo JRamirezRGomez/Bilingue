@@ -34,18 +34,29 @@ namespace BilingualApp
 
         private void VerboToBe_CheckedChanged(object sender, EventArgs e)
         {
-            if(VerboToBe.Checked=false)
+            if(VerboToBe.Checked)
+            {
+                Nivel1vtb.Enabled = true;
+                nivel2vtb.Enabled = true;
+                Nivel3vtb.Enabled = true;
+            }
+            else
             {
                 Nivel1vtb.Enabled = false;
                 nivel2vtb.Enabled = false;
                 Nivel3vtb.Enabled = false;
-
             }
         }
 
         private void DoWhile_CheckedChanged(object sender, EventArgs e)
         {
-            if(DoWhile.Checked=false)
+            if(DoWhile.Checked)
+            {
+                Nivel1dw.Enabled = true;
+                Nivel2dw.Enabled = true;
+                Nivel3dw.Enabled = true;
+            }
+            else
             {
                 Nivel1dw.Enabled = false;
                 Nivel2dw.Enabled = false;
@@ -55,9 +66,13 @@ namespace BilingualApp
 
         private void Gramatica_CheckedChanged(object sender, EventArgs e)
         {
-            if(Gramatica.Checked=false)
+            if(Gramatica.Checked)
             {
-                grama.Enabled = false;//fix
+                grama.Enabled = true;//fix
+            }
+            else
+            {
+                grama.Enabled = false;
             }
         }
 

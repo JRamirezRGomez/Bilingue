@@ -75,7 +75,7 @@ namespace BilingualApp
 
         public bool Registaralu(string nombre, string ap, string am)
         {
-            string query = $"insert into bilingual.alumnos (ID_Alumno, Nombre, Apellido_P, Apellido_M) values ('', '{nombre}', '{ap}', '{am}');";
+            string query = $"insert into bilingual.alumnos (ID_Alumnos, Nombre, Apellido_P, Apellido_M) values ('', '{nombre}', '{ap}', '{am}');";
             try
             {
                 if (openconn())
@@ -140,7 +140,11 @@ namespace BilingualApp
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox1.Checked = false)
+            if (checkBox1.Checked)
+            {
+                Aceptar.Enabled = true;
+            }
+            else
             {
                 Aceptar.Enabled = false;
             }

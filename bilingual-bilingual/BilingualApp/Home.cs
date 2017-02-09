@@ -40,6 +40,8 @@ namespace BilingualApp
             Bilingual bi = new Bilingual();
             bi.Visible = true;
             Hide();
+
+            //Texto de prueba
         }
 
         private void Home_Load(object sender, EventArgs e)

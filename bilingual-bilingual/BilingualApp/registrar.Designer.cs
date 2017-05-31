@@ -54,7 +54,7 @@
             this.TxtContrasena.Name = "TxtContrasena";
             this.TxtContrasena.PasswordChar = '*';
             this.TxtContrasena.Size = new System.Drawing.Size(204, 27);
-            this.TxtContrasena.TabIndex = 2;
+            this.TxtContrasena.TabIndex = 3;
             this.TxtContrasena.TextChanged += new System.EventHandler(this.TxtContrasena_TextChanged);
             // 
             // button1
@@ -64,7 +64,7 @@
             this.button1.Location = new System.Drawing.Point(95, 353);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(81, 31);
-            this.button1.TabIndex = 3;
+            this.button1.TabIndex = 7;
             this.button1.Text = "Cancelar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -127,7 +127,7 @@
             this.TxtAM.Location = new System.Drawing.Point(254, 173);
             this.TxtAM.Name = "TxtAM";
             this.TxtAM.Size = new System.Drawing.Size(204, 27);
-            this.TxtAM.TabIndex = 21;
+            this.TxtAM.TabIndex = 2;
             this.TxtAM.TextChanged += new System.EventHandler(this.TxtAM_TextChanged);
             // 
             // TxtAP
@@ -136,7 +136,7 @@
             this.TxtAP.Location = new System.Drawing.Point(254, 129);
             this.TxtAP.Name = "TxtAP";
             this.TxtAP.Size = new System.Drawing.Size(204, 27);
-            this.TxtAP.TabIndex = 22;
+            this.TxtAP.TabIndex = 1;
             this.TxtAP.TextChanged += new System.EventHandler(this.TxtAP_TextChanged);
             // 
             // TxtNombre
@@ -145,7 +145,7 @@
             this.TxtNombre.Location = new System.Drawing.Point(254, 85);
             this.TxtNombre.Name = "TxtNombre";
             this.TxtNombre.Size = new System.Drawing.Size(204, 27);
-            this.TxtNombre.TabIndex = 23;
+            this.TxtNombre.TabIndex = 0;
             this.TxtNombre.TextChanged += new System.EventHandler(this.TxtNombre_TextChanged);
             // 
             // TxtCorreo
@@ -154,7 +154,7 @@
             this.TxtCorreo.Location = new System.Drawing.Point(254, 302);
             this.TxtCorreo.Name = "TxtCorreo";
             this.TxtCorreo.Size = new System.Drawing.Size(204, 27);
-            this.TxtCorreo.TabIndex = 24;
+            this.TxtCorreo.TabIndex = 5;
             this.TxtCorreo.TextChanged += new System.EventHandler(this.TxtCorreo_TextChanged);
             // 
             // BtnHome
@@ -176,7 +176,7 @@
             this.BtnRegistrar.Location = new System.Drawing.Point(377, 353);
             this.BtnRegistrar.Name = "BtnRegistrar";
             this.BtnRegistrar.Size = new System.Drawing.Size(81, 31);
-            this.BtnRegistrar.TabIndex = 25;
+            this.BtnRegistrar.TabIndex = 6;
             this.BtnRegistrar.Text = "Registrar";
             this.BtnRegistrar.UseVisualStyleBackColor = true;
             this.BtnRegistrar.Click += new System.EventHandler(this.BtnRegistrar_Click);
@@ -197,7 +197,8 @@
             this.TxtCContrasena.Location = new System.Drawing.Point(254, 262);
             this.TxtCContrasena.Name = "TxtCContrasena";
             this.TxtCContrasena.Size = new System.Drawing.Size(204, 27);
-            this.TxtCContrasena.TabIndex = 27;
+            this.TxtCContrasena.TabIndex = 4;
+            this.TxtCContrasena.TextChanged += new System.EventHandler(this.TxtCContrasena_TextChanged);
             // 
             // Registrar
             // 

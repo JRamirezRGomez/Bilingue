@@ -180,6 +180,10 @@ namespace BilingualApp
             }
         }
 
+        private void TxtCContrasena_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

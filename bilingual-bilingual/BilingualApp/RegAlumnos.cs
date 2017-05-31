@@ -55,12 +55,13 @@ namespace BilingualApp
 
         private void BtnRegistrar_Click(object sender, EventArgs e)
         {
-            //enviamos parametros a clase registrar 
+            //enviamos parametros a clase registrar
+            string numlista = TxtNumero.Text; 
             string nombre = TxtNombre.Text;
             string ap = TxtAP.Text;
             string am = TxtAM.Text;
 
-            if (Registaralu(nombre, ap, am))
+            if (Registaralu(numlista, nombre, ap, am))
             {
                 MessageBox.Show($"Alumno {nombre} ah sido creado");
                 RegAlumnos ralu = new RegAlumnos();
@@ -73,9 +74,9 @@ namespace BilingualApp
             }
         }
 
-        public bool Registaralu(string nombre, string ap, string am)
+        public bool Registaralu(string numlista, string nombre, string ap, string am)
         {
-            string query = $"insert into bilingual.alumnos (ID_Alumnos, Nombre, Apellido_P, Apellido_M) values ('', '{nombre}', '{ap}', '{am}');";
+            string query = $"insert into alumnos (ID_Alumno, Nombre, Apellido_P, Apellido_M) values ('{numlista}', '{nombre}', '{ap}', '{am}');";
             try
             {
                 if (openconn())
@@ -155,6 +156,26 @@ namespace BilingualApp
             Material mat = new Material();
             mat.Visible = true;
             Close();
+        }
+
+        private void TxtNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtAP_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtAM_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtNumero_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

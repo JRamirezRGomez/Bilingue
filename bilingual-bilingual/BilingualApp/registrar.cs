@@ -36,7 +36,7 @@ namespace BilingualApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Bilingual bi = new Bilingual();
+            Login bi = new Login();
             bi.Visible = true;
             Close();
         }
@@ -115,7 +115,7 @@ namespace BilingualApp
             if(Registar(nombre, ap, am, pass, correo))
             {
                 MessageBox.Show($"Usuario {nombre} ah sido creado");
-                Bilingual b = new Bilingual();
+                Login b = new Login();
                 b.Visible = true;
                 Close();
             }

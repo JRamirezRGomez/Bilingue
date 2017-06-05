@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Bilingual));
             this.traductor = new System.Windows.Forms.Button();
             this.bilingual = new System.Windows.Forms.Button();
             this.BtnHome = new System.Windows.Forms.PictureBox();

@@ -27,7 +27,7 @@ namespace BilingualApp
 
         private void Atras_Click(object sender, EventArgs e)
         {
-            Bilingual bi = new Bilingual();
+            Login bi = new Login();
             bi.Visible = true;
             Close();
         }

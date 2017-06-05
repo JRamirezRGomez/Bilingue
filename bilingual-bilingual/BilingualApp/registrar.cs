@@ -105,14 +105,15 @@ namespace BilingualApp
 
         private void BtnRegistrar_Click(object sender, EventArgs e)
         {
-            //enviamos parametros a clase registrar 
+            //enviamos parametros a clase registrar
+            
             string nombre = TxtNombre.Text;
             string ap = TxtAP.Text;
             string am = TxtAM.Text;
             string pass = TxtContrasena.Text;
             string correo = TxtCorreo.Text;
 
-            if(Registar(nombre, ap, am, pass, correo))
+            if(Registar( nombre, ap, am, pass, correo))
             {
                 MessageBox.Show($"Usuario {nombre} ah sido creado");
                 Login b = new Login();
@@ -123,11 +124,13 @@ namespace BilingualApp
             {
                 MessageBox.Show($"Usuario {nombre} no fue creado");
             }
+
+          
         }
         
         public bool Registar(string nombre, string ap, string am, string pass, string correo )
         {
-            string query = $"insert into bilingual.docentes (ID_Docentes, Nombre, Apellido_P, Apellido_M, Contrasena, Correo_Eletronico) values ('', '{nombre}', '{ap}', '{am}', '{pass}', '{correo}');";
+            string query = $"insert into docentes (ID_Docente, Nombre, Apellido_P, Apellido_M, Contrasena, Correo_Eletronico) values ('', '{nombre}', '{ap}', '{am}', '{pass}', '{correo}');";
             try
             {
                 if(openconn())
@@ -181,6 +184,16 @@ namespace BilingualApp
         }
 
         private void TxtCContrasena_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtID_TextChanged(object sender, EventArgs e)
         {
 
         }

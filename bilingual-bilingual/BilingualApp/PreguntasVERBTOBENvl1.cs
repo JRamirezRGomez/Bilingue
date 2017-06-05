@@ -40,5 +40,12 @@ namespace BilingualApp
         {
 
         }
+
+        private void BtnHome_Click(object sender, EventArgs e)
+        {
+            Bilingual bi = new Bilingual();
+            bi.Visible = true;
+            Close();
+        }
     }
 }

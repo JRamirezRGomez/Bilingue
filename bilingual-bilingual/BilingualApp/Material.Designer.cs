@@ -210,6 +210,7 @@
             // 
             // BtnHome
             // 
+            this.BtnHome.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.Image")));
             this.BtnHome.Location = new System.Drawing.Point(12, 12);
             this.BtnHome.Name = "BtnHome";

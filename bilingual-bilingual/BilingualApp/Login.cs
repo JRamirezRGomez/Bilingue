@@ -82,7 +82,7 @@ namespace BilingualApp
 
             if(login (correo,pass))
             {
-                RegAlumnos ralu = new RegAlumnos();
+                Bilingual ralu = new Bilingual();
                 ralu.Visible = true;
                 Close();
             }

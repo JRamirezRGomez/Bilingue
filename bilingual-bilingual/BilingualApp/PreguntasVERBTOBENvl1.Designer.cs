@@ -34,7 +34,9 @@
             this.OpcionA = new System.Windows.Forms.LinkLabel();
             this.OpcionB = new System.Windows.Forms.LinkLabel();
             this.OpcionC = new System.Windows.Forms.LinkLabel();
+            this.BtnHome = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnHome)).BeginInit();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -96,12 +98,25 @@
             this.OpcionC.TabStop = true;
             this.OpcionC.Text = "Opcion C";
             // 
+            // BtnHome
+            // 
+            this.BtnHome.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.Image")));
+            this.BtnHome.Location = new System.Drawing.Point(572, 51);
+            this.BtnHome.Name = "BtnHome";
+            this.BtnHome.Size = new System.Drawing.Size(83, 96);
+            this.BtnHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.BtnHome.TabIndex = 18;
+            this.BtnHome.TabStop = false;
+            this.BtnHome.Click += new System.EventHandler(this.BtnHome_Click);
+            // 
             // PreguntasVERBTOBENvl1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(742, 492);
+            this.Controls.Add(this.BtnHome);
             this.Controls.Add(this.OpcionC);
             this.Controls.Add(this.OpcionB);
             this.Controls.Add(this.OpcionA);
@@ -112,6 +127,7 @@
             this.Text = "Preguntas";
             this.Load += new System.EventHandler(this.PreguntasVERBTOBENvl1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnHome)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -124,5 +140,6 @@
         private System.Windows.Forms.LinkLabel OpcionA;
         private System.Windows.Forms.LinkLabel OpcionB;
         private System.Windows.Forms.LinkLabel OpcionC;
+        private System.Windows.Forms.PictureBox BtnHome;
     }
 }

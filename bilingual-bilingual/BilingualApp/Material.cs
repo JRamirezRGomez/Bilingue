@@ -83,7 +83,7 @@ namespace BilingualApp
 
         private void BtnHome_Click(object sender, EventArgs e)
         {
-            Home c = new Home();
+            Bilingual c = new Bilingual();
             c.Visible = true;
             Close();
 

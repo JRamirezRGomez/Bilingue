@@ -48,7 +48,7 @@ namespace BilingualApp
 
         private void BtnAtras_Click(object sender, EventArgs e)
         {
-            Login b = new Login();
+            Bilingual b = new Bilingual();
             b.Visible = true;
             Close();
         }

@@ -16,5 +16,20 @@ namespace BilingualApp
         {
             InitializeComponent();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void BtnHome_Click(object sender, EventArgs e)
+        {
+            Bilingual c =  new Bilingual();
+            c.Visible = true;
+            Close();
+
+
+
+        }
     }
 }

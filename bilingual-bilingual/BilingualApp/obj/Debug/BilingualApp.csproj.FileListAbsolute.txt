@@ -99,3 +99,4 @@ C:\Users\Raul\Documents\Tecnologico\Titulación\Bilingue\bilingual-bilingual\Bil
 C:\Users\Raul\Documents\Tecnologico\Titulación\Bilingue\bilingual-bilingual\BilingualApp\System.Web.Razor.xml
 C:\Users\Raul\Documents\Tecnologico\Titulación\Bilingue\bilingual-bilingual\BilingualApp\System.Web.WebPages.Deployment.xml
 C:\Users\Raul\Documents\Tecnologico\Titulación\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.Login.resources
+C:\Users\Raul\Documents\Tecnologico\Titulación\Bilingue\bilingual-bilingual\BilingualApp\obj\Debug\BilingualApp.Alumnos.resources

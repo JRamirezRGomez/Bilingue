@@ -124,6 +124,9 @@
     <Compile Include="Registrar.Designer.cs">
       <DependentUpon>Registrar.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Alumnos.resx">
+      <DependentUpon>Alumnos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bilingual.resx">
       <DependentUpon>Bilingual.cs</DependentUpon>
     </EmbeddedResource>

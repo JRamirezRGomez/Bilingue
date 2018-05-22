@@ -240,6 +240,7 @@
             this.Controls.Add(this.Atras);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Material";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Material";
             this.Load += new System.EventHandler(this.Material_Load);
             ((System.ComponentModel.ISupportInitialize)(this.BtnHome)).EndInit();

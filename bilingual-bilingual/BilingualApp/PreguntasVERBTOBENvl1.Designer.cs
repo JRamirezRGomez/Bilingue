@@ -35,6 +35,7 @@
             this.OpcionB = new System.Windows.Forms.LinkLabel();
             this.OpcionC = new System.Windows.Forms.LinkLabel();
             this.BtnHome = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnHome)).BeginInit();
             this.SuspendLayout();
@@ -61,42 +62,46 @@
             this.pictureBox1.Size = new System.Drawing.Size(278, 256);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // OpcionA
             // 
             this.OpcionA.AutoSize = true;
             this.OpcionA.BackColor = System.Drawing.Color.Transparent;
+            this.OpcionA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OpcionA.LinkColor = System.Drawing.Color.Red;
             this.OpcionA.Location = new System.Drawing.Point(11, 311);
             this.OpcionA.Name = "OpcionA";
-            this.OpcionA.Size = new System.Drawing.Size(51, 13);
+            this.OpcionA.Size = new System.Drawing.Size(95, 16);
             this.OpcionA.TabIndex = 2;
             this.OpcionA.TabStop = true;
-            this.OpcionA.Text = "Opcion A";
+            this.OpcionA.Text = "Yes, you are";
             // 
             // OpcionB
             // 
             this.OpcionB.AutoSize = true;
             this.OpcionB.BackColor = System.Drawing.Color.Transparent;
+            this.OpcionB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OpcionB.LinkColor = System.Drawing.Color.Red;
             this.OpcionB.Location = new System.Drawing.Point(11, 366);
             this.OpcionB.Name = "OpcionB";
-            this.OpcionB.Size = new System.Drawing.Size(51, 13);
+            this.OpcionB.Size = new System.Drawing.Size(95, 16);
             this.OpcionB.TabIndex = 3;
             this.OpcionB.TabStop = true;
-            this.OpcionB.Text = "Opcion B";
+            this.OpcionB.Text = "Yes, are you";
             // 
             // OpcionC
             // 
             this.OpcionC.AutoSize = true;
             this.OpcionC.BackColor = System.Drawing.Color.Transparent;
+            this.OpcionC.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OpcionC.LinkColor = System.Drawing.Color.Red;
             this.OpcionC.Location = new System.Drawing.Point(12, 418);
             this.OpcionC.Name = "OpcionC";
-            this.OpcionC.Size = new System.Drawing.Size(51, 13);
+            this.OpcionC.Size = new System.Drawing.Size(69, 16);
             this.OpcionC.TabIndex = 4;
             this.OpcionC.TabStop = true;
-            this.OpcionC.Text = "Opcion C";
+            this.OpcionC.Text = "Did you?";
             // 
             // BtnHome
             // 
@@ -110,12 +115,23 @@
             this.BtnHome.TabStop = false;
             this.BtnHome.Click += new System.EventHandler(this.BtnHome_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(35, 95);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(273, 25);
+            this.label1.TabIndex = 19;
+            this.label1.Text = "Are you a good Student?";
+            // 
             // PreguntasVERBTOBENvl1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(742, 492);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnHome);
             this.Controls.Add(this.OpcionC);
             this.Controls.Add(this.OpcionB);
@@ -124,6 +140,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PreguntasVERBTOBENvl1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Preguntas";
             this.Load += new System.EventHandler(this.PreguntasVERBTOBENvl1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -141,5 +158,6 @@
         private System.Windows.Forms.LinkLabel OpcionB;
         private System.Windows.Forms.LinkLabel OpcionC;
         private System.Windows.Forms.PictureBox BtnHome;
+        private System.Windows.Forms.Label label1;
     }
 }

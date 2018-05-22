@@ -62,7 +62,7 @@
             // 
             this.BtnAtras.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnAtras.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
-            this.BtnAtras.Location = new System.Drawing.Point(58, 270);
+            this.BtnAtras.Location = new System.Drawing.Point(58, 295);
             this.BtnAtras.Name = "BtnAtras";
             this.BtnAtras.Size = new System.Drawing.Size(115, 31);
             this.BtnAtras.TabIndex = 1;
@@ -83,7 +83,7 @@
             // 
             this.BtnRegistrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRegistrar.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
-            this.BtnRegistrar.Location = new System.Drawing.Point(242, 270);
+            this.BtnRegistrar.Location = new System.Drawing.Point(242, 295);
             this.BtnRegistrar.Name = "BtnRegistrar";
             this.BtnRegistrar.Size = new System.Drawing.Size(115, 31);
             this.BtnRegistrar.TabIndex = 5;
@@ -95,17 +95,18 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(54, 111);
+            this.label2.Location = new System.Drawing.Point(54, 140);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 21);
+            this.label2.Size = new System.Drawing.Size(73, 21);
             this.label2.TabIndex = 6;
-            this.label2.Text = "No. Lista";
+            this.label2.Text = "Matricula";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(54, 148);
+            this.label3.Location = new System.Drawing.Point(54, 173);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(64, 21);
             this.label3.TabIndex = 7;
@@ -115,7 +116,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(54, 182);
+            this.label4.Location = new System.Drawing.Point(54, 207);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(121, 21);
             this.label4.TabIndex = 8;
@@ -125,7 +126,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(54, 214);
+            this.label5.Location = new System.Drawing.Point(54, 239);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(125, 21);
             this.label5.TabIndex = 9;
@@ -134,7 +135,7 @@
             // TxtNumero
             // 
             this.TxtNumero.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
-            this.TxtNumero.Location = new System.Drawing.Point(269, 105);
+            this.TxtNumero.Location = new System.Drawing.Point(269, 134);
             this.TxtNumero.Name = "TxtNumero";
             this.TxtNumero.Size = new System.Drawing.Size(187, 27);
             this.TxtNumero.TabIndex = 10;
@@ -143,7 +144,7 @@
             // TxtNombre
             // 
             this.TxtNombre.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
-            this.TxtNombre.Location = new System.Drawing.Point(269, 142);
+            this.TxtNombre.Location = new System.Drawing.Point(269, 167);
             this.TxtNombre.Name = "TxtNombre";
             this.TxtNombre.Size = new System.Drawing.Size(187, 27);
             this.TxtNombre.TabIndex = 11;
@@ -152,7 +153,7 @@
             // TxtAP
             // 
             this.TxtAP.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
-            this.TxtAP.Location = new System.Drawing.Point(269, 176);
+            this.TxtAP.Location = new System.Drawing.Point(269, 201);
             this.TxtAP.Name = "TxtAP";
             this.TxtAP.Size = new System.Drawing.Size(187, 27);
             this.TxtAP.TabIndex = 12;
@@ -161,7 +162,7 @@
             // TxtAM
             // 
             this.TxtAM.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold);
-            this.TxtAM.Location = new System.Drawing.Point(269, 208);
+            this.TxtAM.Location = new System.Drawing.Point(269, 233);
             this.TxtAM.Name = "TxtAM";
             this.TxtAM.Size = new System.Drawing.Size(187, 27);
             this.TxtAM.TabIndex = 13;
@@ -182,7 +183,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(421, 248);
+            this.checkBox1.Location = new System.Drawing.Point(421, 273);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(61, 17);
             this.checkBox1.TabIndex = 15;
@@ -193,7 +194,7 @@
             // Aceptar
             // 
             this.Aceptar.Enabled = false;
-            this.Aceptar.Location = new System.Drawing.Point(421, 271);
+            this.Aceptar.Location = new System.Drawing.Point(421, 296);
             this.Aceptar.Name = "Aceptar";
             this.Aceptar.Size = new System.Drawing.Size(115, 31);
             this.Aceptar.TabIndex = 16;
@@ -206,7 +207,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(554, 313);
+            this.ClientSize = new System.Drawing.Size(554, 333);
             this.Controls.Add(this.Aceptar);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.TxtAM);
@@ -224,6 +225,7 @@
             this.Controls.Add(this.BtnHome);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "RegAlumnos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro de Alumnos";
             this.Load += new System.EventHandler(this.RegAlumnos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.BtnHome)).EndInit();

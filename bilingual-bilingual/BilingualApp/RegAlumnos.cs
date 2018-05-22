@@ -56,12 +56,14 @@ namespace BilingualApp
         private void BtnRegistrar_Click(object sender, EventArgs e)
         {
             //enviamos parametros a clase registrar
-            string numlista = TxtNumero.Text; 
+   
+            string numlista = TxtNumero.Text;
             string nombre = TxtNombre.Text;
             string ap = TxtAP.Text;
             string am = TxtAM.Text;
 
-            if (Registaralu(numlista, nombre, ap, am))
+
+            if (Registaralu(numlista, nombre, ap, am)) 
             {
                 MessageBox.Show($"Alumno {nombre} ah sido creado");
                 RegAlumnos ralu = new RegAlumnos();
@@ -174,6 +176,16 @@ namespace BilingualApp
         }
 
         private void TxtNumero_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtTurno_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

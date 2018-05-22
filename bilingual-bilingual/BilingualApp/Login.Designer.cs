@@ -114,7 +114,7 @@
             this.BtnIniciar.UseVisualStyleBackColor = true;
             this.BtnIniciar.Click += new System.EventHandler(this.BtnIniciar_Click);
             // 
-            // Bilingual
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -128,7 +128,8 @@
             this.Controls.Add(this.TxtContrasena);
             this.Controls.Add(this.TxtCorreo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Bilingual";
+            this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bilingual";
             this.Load += new System.EventHandler(this.Bilingual_Load);
             this.ResumeLayout(false);

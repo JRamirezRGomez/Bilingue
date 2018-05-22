@@ -201,6 +201,7 @@
             this.Controls.Add(this.BtnHome);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Registrar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar";
             this.Load += new System.EventHandler(this.registrar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.BtnHome)).EndInit();

@@ -112,6 +112,7 @@
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.BtnHome);
             this.Name = "Bilingual";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bilingual";
             ((System.ComponentModel.ISupportInitialize)(this.BtnHome)).EndInit();
             this.ResumeLayout(false);
